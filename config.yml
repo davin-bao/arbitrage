@@ -1,0 +1,12 @@
+exchange:
+  enableRateLimit: True
+  options:
+    defaultType: future
+  proxies:
+    https: 'http://127.0.0.1:7897'
+
+pair:
+  quote: USDT
+  minLeverage: 20
+  minContractSize: 0.0001
+
