@@ -1,17 +1,18 @@
 import time
 from typing import Any
+from utils import is_lock, set_lock
 
 import context
 
 
 def sync_all_perp_markets_to_db():
+    lock_name = "sync-all-perp-markets"
+    if is_lock(lock_name):
+        return
     for name, exchange in context.em.get_exchanges().items():
-        if exchange['config']['last_sync_market_time'] > 0 and \
-            time.time() - exchange['config']['last_sync_market_time'] < 60 * 60:  # 1小时
-            print(f"{name}市场已同步, 跳过")
-            continue
         sync_perp_markets_to_db(context.em.fetch_perp_markets(exchange))
         print(f"同步市场完成: {name}")
+    set_lock(lock_name)
 
 def sync_perp_markets_to_db(markets: list[dict[str, Any]]):
     """
@@ -51,4 +52,3 @@ def sync_perp_markets_to_db(markets: list[dict[str, Any]]):
     for symbol in to_delete:
         context.db.delete('perp_market', 'exchange_id=? AND symbol=?', (exchange_id, symbol))
         print(f"删除市场: {symbol}")
-    context.db.update('exchange', {'last_sync_market_time': int(time.time())}, 'id=?', (exchange_id,))

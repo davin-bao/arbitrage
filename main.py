@@ -2,7 +2,7 @@ import context
 from arbitrage_db import ArbitrageDB
 from exchange_manager import ExchangeManager
 from market_util import sync_all_perp_markets_to_db
-from pair_util import sync_arb_pairs
+from pair_util import sync_arb_pairs, check_arb_pairs
 from utils import load_config
 
 
@@ -30,4 +30,5 @@ if __name__ == "__main__":
     init_em()
     sync_all_perp_markets_to_db()
     sync_arb_pairs()
+    check_arb_pairs()
     context.db.close()

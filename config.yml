@@ -9,4 +9,5 @@ pair:
   quote: USDT
   minLeverage: 20
   minContractSize: 0.0001
+  minLiquidityScore: 0.4
 
