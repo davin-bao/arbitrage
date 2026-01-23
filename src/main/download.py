@@ -9,12 +9,19 @@ from infrastructure.config.config_manager import ConfigManager
 from infrastructure.market.ccxt_market_service import CCXTMarketService
 
 
-def _load_config(config_path: str = "config/download.yml") -> Dict:
+def _load_config(config_path: str = "config/download.yml", global_config_path: str = "config/global.yml") -> Dict:
     """
     从配置文件加载交易所配置
     """
     configManager = ConfigManager()
-    return configManager.load_or_create_config(config_path, _get_sample_config())
+    dowonloadConfig = configManager.load_or_create_config(config_path, _get_sample_config())
+    globalConfig = ConfigManager.load_or_create_config(global_config_path, {})
+    return {
+        'exchanges': globalConfig['exchanges'],
+        'pairs': dowonloadConfig['pairs'],
+        'time_service': dowonloadConfig['time_service'],
+        'download': dowonloadConfig['download']
+    }
 
 
 def _get_sample_config():
@@ -22,42 +29,6 @@ def _get_sample_config():
     创建示例配置文件
     """
     return {
-        'exchanges': {
-            'binance': {
-                'enabled': True,
-                'enableRateLimit': True,
-                'options': {
-                    'defaultType': 'future'
-                },
-                'proxies': {
-                    'https': 'http://127.0.0.1:7897'
-                },
-                'fees': {
-                    'maker': 0.001,
-                    'taker': 0.002
-                },
-                'apiKey': 'your_api_key_here',
-                'secret': 'your_secret_here',
-                'sandbox': False,
-            },
-            'gateio': {
-                'enabled': True,
-                'enableRateLimit': True,
-                'options': {
-                    'defaultType': 'future'
-                },
-                'proxies': {
-                    'https': 'http://127.0.0.1:7897'
-                },
-                'fees': {
-                    'maker': 0.001,
-                    'taker': 0.002
-                },
-                'apiKey': 'your_api_key_here',
-                'secret': 'your_secret_here',
-                'sandbox': False
-            }
-        },
         'pairs': [
             {
                 'logical_symbol': 'BTC/USDT',
@@ -200,7 +171,6 @@ def main():
     config = _load_config()
     if not config:
         return
-    
     # 获取启用的交易所配置
     exchanges_config = get_enabled_exchanges(config)
     if not exchanges_config:

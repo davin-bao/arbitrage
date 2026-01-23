@@ -34,19 +34,23 @@ class HistoricalMarketService(MarketService):
             if filename.endswith('.csv'):
                 pair_name = filename.replace('.csv', '')
                 
-                # 解析交易对名称 (例如: BTC_USDT_binance_okx -> BTC/USDT, binance, okx)
+                # 解析交易对名称 (例如: BTCUSDT_binance_okx -> BTCUSDT, binance, okx)
+                # 或者支持符号带下划线的情况: BTC_USDT_binance_okx -> BTC_USDT, binance, okx
                 parts = pair_name.split('_')
                 if len(parts) >= 3:
-                    symbol = '_'.join(parts[:-2])  # 处理可能包含下划线的符号，如BTC_USDT
+                    symbol = '_'.join(parts[:-2])  # 重建symbol，例如BTC_USDT
                     exchange1 = parts[-2]
                     exchange2 = parts[-1]
                     
-                    # 使用原始顺序作为long和short交易所
-                    # 这样可以保持下载配置中定义的顺序
+                    # 确定哪个是long exchange，哪个是short exchange
+                    exchanges = sorted([exchange1, exchange2])
+                    long_exchange = exchanges[0]
+                    short_exchange = exchanges[1]
+                    
                     pair = Pair(
-                        logical_symbol=symbol.replace('_', '/'),  # 将下划线转回斜杠
-                        long_exchange=exchange1,
-                        short_exchange=exchange2
+                        logical_symbol=symbol,
+                        long_exchange=long_exchange,
+                        short_exchange=short_exchange
                     )
                     
                     file_path = os.path.join(self.csv_directory, filename)
@@ -77,37 +81,37 @@ class HistoricalMarketService(MarketService):
                 
                 # 创建腿数据
                 leg_data = MarketLegSnapshot(
-                    exchange=row['exchange'],
-                    symbol=row['symbol'],
-                    last_price=Decimal(row['last_price']) if row['last_price'] and row['last_price'] != '' else None,
-                    last_size=None,  # 历史数据中通常没有last_size
-                    last_timestamp=timestamp,
-                    best_bid_price=Decimal(row['bid_price']) if row['bid_price'] and row['bid_price'] != '' else None,
-                    best_bid_size=Decimal(row['bid_size']) if row['bid_size'] and row['bid_size'] != '' else None,
-                    best_ask_price=Decimal(row['ask_price']) if row['ask_price'] and row['ask_price'] != '' else None,
-                    best_ask_size=Decimal(row['ask_size']) if row['ask_size'] and row['ask_size'] != '' else None,
-                    orderbook_bids=[],  # 历史数据中通常没有深度数据
-                    orderbook_asks=[]   # 历史数据中通常没有深度数据
+                    exchange=exchange,
+                    symbol=symbol,
+                    last_price=Decimal(row['last_price']) if row.get('last_price') else None,
+                    best_bid_price=Decimal(row['bid_price']) if row.get('bid_price') else None,
+                    best_bid_size=Decimal(row['bid_size']) if row.get('bid_size') else None,
+                    best_ask_price=Decimal(row['ask_price']) if row.get('ask_price') else None,
+                    best_ask_size=Decimal(row['ask_size']) if row.get('ask_size') else None,
                 )
                 
                 # 存储这个交易所的数据
-                key = f"{pair.logical_symbol}_{exchange}"
+                key = f"{row['symbol']}_{row['exchange']}"
                 if key not in self._data_cache[timestamp]:
                     self._data_cache[timestamp][key] = leg_data
         
         # 记录所有时间戳并排序
-        self._timestamps = sorted(self._data_cache.keys())
+        self._timestamps = sorted(list(self._data_cache.keys()))
     
     def get_snapshot(self, pairs: List[Pair]) -> Dict[str, MarketSnapshot]:
         """
-        获取下一个时间戳的市场快照
+        获取下一个市场快照
         """
-        if not self._timestamps or self._current_index >= len(self._timestamps):
+        if not self._timestamps:
+            return {}
+        
+        # 使用当前索引的时间戳，然后递增
+        if self._current_index >= len(self._timestamps):
             # 循环回到开始
             self._current_index = 0
             if not self._timestamps:
                 return {}
-        
+            
         timestamp = self._timestamps[self._current_index]
         self._current_index += 1
         
@@ -119,8 +123,11 @@ class HistoricalMarketService(MarketService):
         
         for pair in pairs:
             # 获取这个交易对的两条腿数据
-            long_key = f"{pair.logical_symbol.replace('/', '_')}_{pair.long_exchange}"
-            short_key = f"{pair.logical_symbol.replace('/', '_')}_{pair.short_exchange}"
+            long_symbol = self._find_symbol_for_exchange(pair.logical_symbol, pair.long_exchange)
+            short_symbol = self._find_symbol_for_exchange(pair.logical_symbol, pair.short_exchange)
+            
+            long_key = f"{long_symbol}_{pair.long_exchange}" if long_symbol else f"{pair.logical_symbol}_{pair.long_exchange}"
+            short_key = f"{short_symbol}_{pair.short_exchange}" if short_symbol else f"{pair.logical_symbol}_{pair.short_exchange}"
             
             long_leg = self._data_cache[timestamp].get(long_key)
             short_leg = self._data_cache[timestamp].get(short_key)
@@ -137,6 +144,21 @@ class HistoricalMarketService(MarketService):
                 result[pair.pair_id] = snapshot
         
         return result
+
+    def _find_symbol_for_exchange(self, logical_symbol: str, exchange: str) -> Optional[str]:
+        """
+        尝试在数据缓存中找到特定交易所使用的实际交易对符号
+        因为不同交易所可能使用不同的符号表示法
+        """
+        for timestamp_data in self._data_cache.values():
+            for key in timestamp_data.keys():
+                symbol, exch = key.rsplit('_', 1)
+                if exch == exchange:
+                    # 如果符号包含逻辑符号，则返回找到的符号
+                    if symbol.replace('/', '_').startswith(logical_symbol.replace('/', '_')) or \
+                       symbol.replace('_', '/').startswith(logical_symbol.replace('_', '/')):
+                        return symbol
+        return None
     
     def reset(self):
         """

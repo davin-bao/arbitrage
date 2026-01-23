@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from application.services.arbitrage_engine import ArbitrageEngine
 
-from infrastructure.historical_market_service import HistoricalMarketService
+from src.infrastructure.market.historical_market_service import HistoricalMarketService
 from infrastructure.account.simulated_account_service import SimulatedAccountService
 from infrastructure.execution.simulated_execution_service import SimulatedExecutionService
 from infrastructure.time.backtest_time_service import BacktestTimeService

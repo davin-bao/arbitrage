@@ -1,0 +1,27 @@
+exchanges:
+  binance:
+    enableRateLimit: true
+    enabled: true
+    fees:
+      maker: 0.001
+      taker: 0.002
+    options:
+      defaultType: future
+    proxies:
+      https: http://127.0.0.1:7897
+    sandbox: false
+    apiKey: 
+    secret: 
+  okx:
+    enableRateLimit: true
+    enabled: true
+    fees:
+      maker: 0.001
+      taker: 0.002
+    options:
+      defaultType: future
+    proxies:
+      https: http://127.0.0.1:7897
+    sandbox: false
+    apiKey: 
+    secret: 
