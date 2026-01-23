@@ -35,11 +35,12 @@ class HistoricalMarketService(MarketService):
                 pair_name = filename.replace('.csv', '')
                 
                 # 解析交易对名称 (例如: BTCUSDT_binance_okx -> BTCUSDT, binance, okx)
+                # 或者支持符号带下划线的情况: BTC_USDT_binance_okx -> BTC_USDT, binance, okx
                 parts = pair_name.split('_')
                 if len(parts) >= 3:
-                    symbol = parts[0]
-                    exchange1 = parts[1]
-                    exchange2 = parts[2]
+                    symbol = '_'.join(parts[:-2])  # 重建symbol，例如BTC_USDT
+                    exchange1 = parts[-2]
+                    exchange2 = parts[-1]
                     
                     # 确定哪个是long exchange，哪个是short exchange
                     exchanges = sorted([exchange1, exchange2])
@@ -90,34 +91,29 @@ class HistoricalMarketService(MarketService):
                 )
                 
                 # 存储这个交易所的数据
-                key = f"{pair.logical_symbol}_{exchange}"
+                key = f"{row['symbol']}_{row['exchange']}"
                 if key not in self._data_cache[timestamp]:
                     self._data_cache[timestamp][key] = leg_data
         
         # 记录所有时间戳并排序
-        self._timestamps = sorted(self._data_cache.keys())
+        self._timestamps = sorted(list(self._data_cache.keys()))
     
-    def get_snapshot(self, pairs: List[Pair], target_timestamp: Optional[float] = None) -> Dict[str, MarketSnapshot]:
+    def get_snapshot(self, pairs: List[Pair]) -> Dict[str, MarketSnapshot]:
         """
-        获取指定时间戳的市场快照
-        如果target_timestamp为None，则使用下一个时间戳
+        获取下一个市场快照
         """
         if not self._timestamps:
             return {}
         
-        # 如果没有指定时间戳，使用当前索引的时间戳
-        if target_timestamp is None:
-            if self._current_index >= len(self._timestamps):
-                # 循环回到开始
-                self._current_index = 0
-                if not self._timestamps:
-                    return {}
+        # 使用当前索引的时间戳，然后递增
+        if self._current_index >= len(self._timestamps):
+            # 循环回到开始
+            self._current_index = 0
+            if not self._timestamps:
+                return {}
             
-            timestamp = self._timestamps[self._current_index]
-            self._current_index += 1
-        else:
-            # 查找最接近的时间戳
-            timestamp = self._find_nearest_timestamp(target_timestamp)
+        timestamp = self._timestamps[self._current_index]
+        self._current_index += 1
         
         # 检查缓存中是否存在这个时间戳的数据
         if timestamp not in self._data_cache:
@@ -127,8 +123,11 @@ class HistoricalMarketService(MarketService):
         
         for pair in pairs:
             # 获取这个交易对的两条腿数据
-            long_key = f"{pair.logical_symbol}_{pair.long_exchange}"
-            short_key = f"{pair.logical_symbol}_{pair.short_exchange}"
+            long_symbol = self._find_symbol_for_exchange(pair.logical_symbol, pair.long_exchange)
+            short_symbol = self._find_symbol_for_exchange(pair.logical_symbol, pair.short_exchange)
+            
+            long_key = f"{long_symbol}_{pair.long_exchange}" if long_symbol else f"{pair.logical_symbol}_{pair.long_exchange}"
+            short_key = f"{short_symbol}_{pair.short_exchange}" if short_symbol else f"{pair.logical_symbol}_{pair.short_exchange}"
             
             long_leg = self._data_cache[timestamp].get(long_key)
             short_leg = self._data_cache[timestamp].get(short_key)
@@ -145,38 +144,21 @@ class HistoricalMarketService(MarketService):
                 result[pair.pair_id] = snapshot
         
         return result
-    
-    def _find_nearest_timestamp(self, target_timestamp: float) -> float:
+
+    def _find_symbol_for_exchange(self, logical_symbol: str, exchange: str) -> Optional[str]:
         """
-        查找最接近目标时间戳的时间戳
+        尝试在数据缓存中找到特定交易所使用的实际交易对符号
+        因为不同交易所可能使用不同的符号表示法
         """
-        if not self._timestamps:
-            return target_timestamp
-        
-        # 使用二分查找找到最接近的时间戳
-        left, right = 0, len(self._timestamps) - 1
-        
-        while left < right:
-            mid = (left + right) // 2
-            if self._timestamps[mid] < target_timestamp:
-                left = mid + 1
-            else:
-                right = mid
-        
-        # 检查left和left-1哪个更接近
-        if left == 0:
-            return self._timestamps[0]
-        if left == len(self._timestamps):
-            return self._timestamps[-1]
-        
-        # 返回更接近的一个
-        diff_left = abs(self._timestamps[left] - target_timestamp)
-        diff_prev = abs(self._timestamps[left - 1] - target_timestamp)
-        
-        if diff_left < diff_prev:
-            return self._timestamps[left]
-        else:
-            return self._timestamps[left - 1]
+        for timestamp_data in self._data_cache.values():
+            for key in timestamp_data.keys():
+                symbol, exch = key.rsplit('_', 1)
+                if exch == exchange:
+                    # 如果符号包含逻辑符号，则返回找到的符号
+                    if symbol.replace('/', '_').startswith(logical_symbol.replace('/', '_')) or \
+                       symbol.replace('_', '/').startswith(logical_symbol.replace('_', '/')):
+                        return symbol
+        return None
     
     def reset(self):
         """

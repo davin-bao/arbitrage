@@ -217,11 +217,24 @@ def main():
     
     # 从配置中获取时间设置
     time_config = config.get('time_service', {})
-    start_offset = time_config.get('start_time_offset_days', 7)  # 默认7天前
     interval = time_config.get('interval_seconds', 60)  # 默认每60秒一个数据点
 
-    end_time = time.time()
-    start_time = end_time - (start_offset * 24 * 3600)  # 计算开始时间
+    # 获取时间配置，如果配置的是datetime对象则转换为时间戳
+    start_time_val = config.get('time_service', {}).get('start_time', time.time())
+    end_time_val = config.get('time_service', {}).get('end_time', time.time())
+    
+    # 如果值是datetime对象，转换为时间戳；如果是数字则直接使用
+    if isinstance(start_time_val, datetime):
+        start_time = start_time_val.timestamp()
+    else:
+        start_time = float(start_time_val) if start_time_val else time.time()
+    
+    if isinstance(end_time_val, datetime):
+        end_time = end_time_val.timestamp()
+    else:
+        end_time = float(end_time_val) if end_time_val else time.time()
+
+    print(f"时间范围: {datetime.fromtimestamp(start_time)} - {datetime.fromtimestamp(end_time)}")
     
     # 从配置中获取输出目录
     download_config = config.get('download', {})
