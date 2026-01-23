@@ -1,0 +1,37 @@
+download:
+  output_dir: data/historical
+exchanges:
+  binance:
+    enableRateLimit: true
+    enabled: true
+    fees:
+      maker: 0.001
+      taker: 0.002
+    options:
+      defaultType: future
+    proxies:
+      https: http://127.0.0.1:7897
+    sandbox: false
+    apiKey: 
+    secret: 
+  okx:
+    enableRateLimit: true
+    enabled: true
+    fees:
+      maker: 0.001
+      taker: 0.002
+    options:
+      defaultType: future
+    proxies:
+      https: http://127.0.0.1:7897
+    sandbox: false
+    apiKey: 
+    secret: 
+pairs:
+- logical_symbol: BTC/USDT
+  long_exchange: binance
+  short_exchange: okx
+time_service:
+  end_time: 2026-01-23 20:42:00
+  interval: 60
+  start_time: 2026-01-23 20:32:00

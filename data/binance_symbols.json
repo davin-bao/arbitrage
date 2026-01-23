@@ -1,0 +1,6257 @@
+[
+  {
+    "exchange_id": "binance",
+    "symbol": "PERP/BTC",
+    "base": "PERP",
+    "quote": "BTC",
+    "contract_size": null,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PERP/BUSD",
+    "base": "PERP",
+    "quote": "BUSD",
+    "contract_size": null,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PERP/USDT",
+    "base": "PERP",
+    "quote": "USDT",
+    "contract_size": null,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTC/USDT:USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETH/USDT:USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BCH/USDT:USDT",
+    "base": "BCH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XRP/USDT:USDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LTC/USDT:USDT",
+    "base": "LTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRX/USDT:USDT",
+    "base": "TRX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETC/USDT:USDT",
+    "base": "ETC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LINK/USDT:USDT",
+    "base": "LINK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XLM/USDT:USDT",
+    "base": "XLM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ADA/USDT:USDT",
+    "base": "ADA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XMR/USDT:USDT",
+    "base": "XMR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DASH/USDT:USDT",
+    "base": "DASH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZEC/USDT:USDT",
+    "base": "ZEC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XTZ/USDT:USDT",
+    "base": "XTZ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BNB/USDT:USDT",
+    "base": "BNB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ATOM/USDT:USDT",
+    "base": "ATOM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ONT/USDT:USDT",
+    "base": "ONT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IOTA/USDT:USDT",
+    "base": "IOTA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAT/USDT:USDT",
+    "base": "BAT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VET/USDT:USDT",
+    "base": "VET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEO/USDT:USDT",
+    "base": "NEO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "QTUM/USDT:USDT",
+    "base": "QTUM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IOST/USDT:USDT",
+    "base": "IOST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "THETA/USDT:USDT",
+    "base": "THETA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALGO/USDT:USDT",
+    "base": "ALGO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZIL/USDT:USDT",
+    "base": "ZIL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KNC/USDT:USDT",
+    "base": "KNC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZRX/USDT:USDT",
+    "base": "ZRX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COMP/USDT:USDT",
+    "base": "COMP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OMG/USDT:USDT",
+    "base": "OMG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOGE/USDT:USDT",
+    "base": "DOGE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SXP/USDT:USDT",
+    "base": "SXP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KAVA/USDT:USDT",
+    "base": "KAVA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAND/USDT:USDT",
+    "base": "BAND",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RLC/USDT:USDT",
+    "base": "RLC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WAVES/USDT:USDT",
+    "base": "WAVES",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MKR/USDT:USDT",
+    "base": "MKR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SNX/USDT:USDT",
+    "base": "SNX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOT/USDT:USDT",
+    "base": "DOT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DEFI/USDT:USDT",
+    "base": "DEFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "YFI/USDT:USDT",
+    "base": "YFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAL/USDT:USDT",
+    "base": "BAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CRV/USDT:USDT",
+    "base": "CRV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRB/USDT:USDT",
+    "base": "TRB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RUNE/USDT:USDT",
+    "base": "RUNE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUSHI/USDT:USDT",
+    "base": "SUSHI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EGLD/USDT:USDT",
+    "base": "EGLD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOL/USDT:USDT",
+    "base": "SOL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ICX/USDT:USDT",
+    "base": "ICX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STORJ/USDT:USDT",
+    "base": "STORJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BLZ/USDT:USDT",
+    "base": "BLZ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UNI/USDT:USDT",
+    "base": "UNI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVAX/USDT:USDT",
+    "base": "AVAX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FTM/USDT:USDT",
+    "base": "FTM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENJ/USDT:USDT",
+    "base": "ENJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FLM/USDT:USDT",
+    "base": "FLM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "REN/USDT:USDT",
+    "base": "REN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KSM/USDT:USDT",
+    "base": "KSM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEAR/USDT:USDT",
+    "base": "NEAR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AAVE/USDT:USDT",
+    "base": "AAVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIL/USDT:USDT",
+    "base": "FIL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RSR/USDT:USDT",
+    "base": "RSR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LRC/USDT:USDT",
+    "base": "LRC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OCEAN/USDT:USDT",
+    "base": "OCEAN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BEL/USDT:USDT",
+    "base": "BEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AXS/USDT:USDT",
+    "base": "AXS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALPHA/USDT:USDT",
+    "base": "ALPHA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZEN/USDT:USDT",
+    "base": "ZEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SKL/USDT:USDT",
+    "base": "SKL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GRT/USDT:USDT",
+    "base": "GRT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1INCH/USDT:USDT",
+    "base": "1INCH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CHZ/USDT:USDT",
+    "base": "CHZ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAND/USDT:USDT",
+    "base": "SAND",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ANKR/USDT:USDT",
+    "base": "ANKR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UNFI/USDT:USDT",
+    "base": "UNFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "REEF/USDT:USDT",
+    "base": "REEF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RVN/USDT:USDT",
+    "base": "RVN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SFP/USDT:USDT",
+    "base": "SFP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XEM/USDT:USDT",
+    "base": "XEM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTCST/USDT:USDT",
+    "base": "BTCST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COTI/USDT:USDT",
+    "base": "COTI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CHR/USDT:USDT",
+    "base": "CHR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MANA/USDT:USDT",
+    "base": "MANA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALICE/USDT:USDT",
+    "base": "ALICE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HBAR/USDT:USDT",
+    "base": "HBAR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ONE/USDT:USDT",
+    "base": "ONE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LINA/USDT:USDT",
+    "base": "LINA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STMX/USDT:USDT",
+    "base": "STMX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DENT/USDT:USDT",
+    "base": "DENT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CELR/USDT:USDT",
+    "base": "CELR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HOT/USDT:USDT",
+    "base": "HOT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MTL/USDT:USDT",
+    "base": "MTL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OGN/USDT:USDT",
+    "base": "OGN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NKN/USDT:USDT",
+    "base": "NKN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SC/USDT:USDT",
+    "base": "SC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DGB/USDT:USDT",
+    "base": "DGB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000SHIB/USDT:USDT",
+    "base": "1000SHIB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAKE/USDT:USDT",
+    "base": "BAKE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GTC/USDT:USDT",
+    "base": "GTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTCDOM/USDT:USDT",
+    "base": "BTCDOM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IOTX/USDT:USDT",
+    "base": "IOTX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RAY/USDT:USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "C98/USDT:USDT",
+    "base": "C98",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MASK/USDT:USDT",
+    "base": "MASK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ATA/USDT:USDT",
+    "base": "ATA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DYDX/USDT:USDT",
+    "base": "DYDX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000XEC/USDT:USDT",
+    "base": "1000XEC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GALA/USDT:USDT",
+    "base": "GALA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CELO/USDT:USDT",
+    "base": "CELO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AR/USDT:USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KLAY/USDT:USDT",
+    "base": "KLAY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARPA/USDT:USDT",
+    "base": "ARPA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CTSI/USDT:USDT",
+    "base": "CTSI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LPT/USDT:USDT",
+    "base": "LPT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENS/USDT:USDT",
+    "base": "ENS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PEOPLE/USDT:USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ROSE/USDT:USDT",
+    "base": "ROSE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DUSK/USDT:USDT",
+    "base": "DUSK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FLOW/USDT:USDT",
+    "base": "FLOW",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IMX/USDT:USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "API3/USDT:USDT",
+    "base": "API3",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GMT/USDT:USDT",
+    "base": "GMT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "APE/USDT:USDT",
+    "base": "APE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WOO/USDT:USDT",
+    "base": "WOO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FTT/USDT:USDT",
+    "base": "FTT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JASMY/USDT:USDT",
+    "base": "JASMY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DAR/USDT:USDT",
+    "base": "DAR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OP/USDT:USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "INJ/USDT:USDT",
+    "base": "INJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STG/USDT:USDT",
+    "base": "STG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SPELL/USDT:USDT",
+    "base": "SPELL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000LUNC/USDT:USDT",
+    "base": "1000LUNC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LUNA2/USDT:USDT",
+    "base": "LUNA2",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LDO/USDT:USDT",
+    "base": "LDO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ICP/USDT:USDT",
+    "base": "ICP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "APT/USDT:USDT",
+    "base": "APT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "QNT/USDT:USDT",
+    "base": "QNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FET/USDT:USDT",
+    "base": "FET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FXS/USDT:USDT",
+    "base": "FXS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HOOK/USDT:USDT",
+    "base": "HOOK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MAGIC/USDT:USDT",
+    "base": "MAGIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "T/USDT:USDT",
+    "base": "T",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HIGH/USDT:USDT",
+    "base": "HIGH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MINA/USDT:USDT",
+    "base": "MINA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ASTR/USDT:USDT",
+    "base": "ASTR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AGIX/USDT:USDT",
+    "base": "AGIX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PHB/USDT:USDT",
+    "base": "PHB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GMX/USDT:USDT",
+    "base": "GMX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CFX/USDT:USDT",
+    "base": "CFX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STX/USDT:USDT",
+    "base": "STX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BNX/USDT:USDT",
+    "base": "BNX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ACH/USDT:USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SSV/USDT:USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CKB/USDT:USDT",
+    "base": "CKB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PERP/USDT:USDT",
+    "base": "PERP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRU/USDT:USDT",
+    "base": "TRU",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LQTY/USDT:USDT",
+    "base": "LQTY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "USDC/USDT:USDT",
+    "base": "USDC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ID/USDT:USDT",
+    "base": "ID",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARB/USDT:USDT",
+    "base": "ARB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JOE/USDT:USDT",
+    "base": "JOE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TLM/USDT:USDT",
+    "base": "TLM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AMB/USDT:USDT",
+    "base": "AMB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LEVER/USDT:USDT",
+    "base": "LEVER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RDNT/USDT:USDT",
+    "base": "RDNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HFT/USDT:USDT",
+    "base": "HFT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XVS/USDT:USDT",
+    "base": "XVS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETH/BTC:BTC",
+    "base": "ETH",
+    "quote": "BTC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BLUR/USDT:USDT",
+    "base": "BLUR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EDU/USDT:USDT",
+    "base": "EDU",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IDEX/USDT:USDT",
+    "base": "IDEX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUI/USDT:USDT",
+    "base": "SUI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000PEPE/USDT:USDT",
+    "base": "1000PEPE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000FLOKI/USDT:USDT",
+    "base": "1000FLOKI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UMA/USDT:USDT",
+    "base": "UMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RAD/USDT:USDT",
+    "base": "RAD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KEY/USDT:USDT",
+    "base": "KEY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COMBO/USDT:USDT",
+    "base": "COMBO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NMR/USDT:USDT",
+    "base": "NMR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MAV/USDT:USDT",
+    "base": "MAV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MDT/USDT:USDT",
+    "base": "MDT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XVG/USDT:USDT",
+    "base": "XVG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WLD/USDT:USDT",
+    "base": "WLD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PENDLE/USDT:USDT",
+    "base": "PENDLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARKM/USDT:USDT",
+    "base": "ARKM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AGLD/USDT:USDT",
+    "base": "AGLD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "YGG/USDT:USDT",
+    "base": "YGG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DODOX/USDT:USDT",
+    "base": "DODOX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BNT/USDT:USDT",
+    "base": "BNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OXT/USDT:USDT",
+    "base": "OXT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SEI/USDT:USDT",
+    "base": "SEI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CYBER/USDT:USDT",
+    "base": "CYBER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HIFI/USDT:USDT",
+    "base": "HIFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARK/USDT:USDT",
+    "base": "ARK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GLMR/USDT:USDT",
+    "base": "GLMR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BICO/USDT:USDT",
+    "base": "BICO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STRAX/USDT:USDT",
+    "base": "STRAX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LOOM/USDT:USDT",
+    "base": "LOOM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BIGTIME/USDT:USDT",
+    "base": "BIGTIME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BOND/USDT:USDT",
+    "base": "BOND",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ORBS/USDT:USDT",
+    "base": "ORBS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STPT/USDT:USDT",
+    "base": "STPT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WAXP/USDT:USDT",
+    "base": "WAXP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BSV/USDT:USDT",
+    "base": "BSV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RIF/USDT:USDT",
+    "base": "RIF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "POLYX/USDT:USDT",
+    "base": "POLYX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GAS/USDT:USDT",
+    "base": "GAS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "POWR/USDT:USDT",
+    "base": "POWR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TIA/USDT:USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SNT/USDT:USDT",
+    "base": "SNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CAKE/USDT:USDT",
+    "base": "CAKE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MEME/USDT:USDT",
+    "base": "MEME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TWT/USDT:USDT",
+    "base": "TWT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TOKEN/USDT:USDT",
+    "base": "TOKEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ORDI/USDT:USDT",
+    "base": "ORDI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STEEM/USDT:USDT",
+    "base": "STEEM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BADGER/USDT:USDT",
+    "base": "BADGER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ILV/USDT:USDT",
+    "base": "ILV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NTRN/USDT:USDT",
+    "base": "NTRN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KAS/USDT:USDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BEAMX/USDT:USDT",
+    "base": "BEAMX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000BONK/USDT:USDT",
+    "base": "1000BONK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PYTH/USDT:USDT",
+    "base": "PYTH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUPER/USDT:USDT",
+    "base": "SUPER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "USTC/USDT:USDT",
+    "base": "USTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ONG/USDT:USDT",
+    "base": "ONG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETHW/USDT:USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JTO/USDT:USDT",
+    "base": "JTO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000SATS/USDT:USDT",
+    "base": "1000SATS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AUCTION/USDT:USDT",
+    "base": "AUCTION",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000RATS/USDT:USDT",
+    "base": "1000RATS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ACE/USDT:USDT",
+    "base": "ACE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MOVR/USDT:USDT",
+    "base": "MOVR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NFP/USDT:USDT",
+    "base": "NFP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTC/USDC:USDC",
+    "base": "BTC",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETH/USDC:USDC",
+    "base": "ETH",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BNB/USDC:USDC",
+    "base": "BNB",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOL/USDC:USDC",
+    "base": "SOL",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XRP/USDC:USDC",
+    "base": "XRP",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AI/USDT:USDT",
+    "base": "AI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XAI/USDT:USDT",
+    "base": "XAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOGE/USDC:USDC",
+    "base": "DOGE",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WIF/USDT:USDT",
+    "base": "WIF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MANTA/USDT:USDT",
+    "base": "MANTA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ONDO/USDT:USDT",
+    "base": "ONDO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LSK/USDT:USDT",
+    "base": "LSK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALT/USDT:USDT",
+    "base": "ALT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JUP/USDT:USDT",
+    "base": "JUP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZETA/USDT:USDT",
+    "base": "ZETA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RONIN/USDT:USDT",
+    "base": "RONIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DYM/USDT:USDT",
+    "base": "DYM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUI/USDC:USDC",
+    "base": "SUI",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OM/USDT:USDT",
+    "base": "OM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LINK/USDC:USDC",
+    "base": "LINK",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PIXEL/USDT:USDT",
+    "base": "PIXEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STRK/USDT:USDT",
+    "base": "STRK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ORDI/USDC:USDC",
+    "base": "ORDI",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GLM/USDT:USDT",
+    "base": "GLM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PORTAL/USDT:USDT",
+    "base": "PORTAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TON/USDT:USDT",
+    "base": "TON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AXL/USDT:USDT",
+    "base": "AXL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MYRO/USDT:USDT",
+    "base": "MYRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000PEPE/USDC:USDC",
+    "base": "1000PEPE",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "METIS/USDT:USDT",
+    "base": "METIS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AEVO/USDT:USDT",
+    "base": "AEVO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WLD/USDC:USDC",
+    "base": "WLD",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VANRY/USDT:USDT",
+    "base": "VANRY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BOME/USDT:USDT",
+    "base": "BOME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETHFI/USDT:USDT",
+    "base": "ETHFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVAX/USDC:USDC",
+    "base": "AVAX",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000SHIB/USDC:USDC",
+    "base": "1000SHIB",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENA/USDT:USDT",
+    "base": "ENA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "W/USDT:USDT",
+    "base": "W",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WIF/USDC:USDC",
+    "base": "WIF",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BCH/USDC:USDC",
+    "base": "BCH",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TNSR/USDT:USDT",
+    "base": "TNSR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAGA/USDT:USDT",
+    "base": "SAGA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LTC/USDC:USDC",
+    "base": "LTC",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEAR/USDC:USDC",
+    "base": "NEAR",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TAO/USDT:USDT",
+    "base": "TAO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OMNI/USDT:USDT",
+    "base": "OMNI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARB/USDC:USDC",
+    "base": "ARB",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEO/USDC:USDC",
+    "base": "NEO",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIL/USDC:USDC",
+    "base": "FIL",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TIA/USDC:USDC",
+    "base": "TIA",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BOME/USDC:USDC",
+    "base": "BOME",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "REZ/USDT:USDT",
+    "base": "REZ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENA/USDC:USDC",
+    "base": "ENA",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETHFI/USDC:USDC",
+    "base": "ETHFI",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000BONK/USDC:USDC",
+    "base": "1000BONK",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BB/USDT:USDT",
+    "base": "BB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NOT/USDT:USDT",
+    "base": "NOT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TURBO/USDT:USDT",
+    "base": "TURBO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IO/USDT:USDT",
+    "base": "IO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZK/USDT:USDT",
+    "base": "ZK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MEW/USDT:USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LISTA/USDT:USDT",
+    "base": "LISTA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZRO/USDT:USDT",
+    "base": "ZRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CRV/USDC:USDC",
+    "base": "CRV",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RENDER/USDT:USDT",
+    "base": "RENDER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BANANA/USDT:USDT",
+    "base": "BANANA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RARE/USDT:USDT",
+    "base": "RARE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "G/USDT:USDT",
+    "base": "G",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SYN/USDT:USDT",
+    "base": "SYN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SYS/USDT:USDT",
+    "base": "SYS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VOXEL/USDT:USDT",
+    "base": "VOXEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BRETT/USDT:USDT",
+    "base": "BRETT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALPACA/USDT:USDT",
+    "base": "ALPACA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "POPCAT/USDT:USDT",
+    "base": "POPCAT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUN/USDT:USDT",
+    "base": "SUN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VIDT/USDT:USDT",
+    "base": "VIDT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NULS/USDT:USDT",
+    "base": "NULS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOGS/USDT:USDT",
+    "base": "DOGS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MBOX/USDT:USDT",
+    "base": "MBOX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CHESS/USDT:USDT",
+    "base": "CHESS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FLUX/USDT:USDT",
+    "base": "FLUX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BSW/USDT:USDT",
+    "base": "BSW",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "QUICK/USDT:USDT",
+    "base": "QUICK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEIROETH/USDT:USDT",
+    "base": "NEIROETH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RPL/USDT:USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "POL/USDT:USDT",
+    "base": "POL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UXLINK/USDT:USDT",
+    "base": "UXLINK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1MBABYDOGE/USDT:USDT",
+    "base": "1MBABYDOGE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEIRO/USDT:USDT",
+    "base": "NEIRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KDA/USDT:USDT",
+    "base": "KDA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIDA/USDT:USDT",
+    "base": "FIDA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIO/USDT:USDT",
+    "base": "FIO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CATI/USDT:USDT",
+    "base": "CATI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GHST/USDT:USDT",
+    "base": "GHST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LOKA/USDT:USDT",
+    "base": "LOKA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HMSTR/USDT:USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "REI/USDT:USDT",
+    "base": "REI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COS/USDT:USDT",
+    "base": "COS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EIGEN/USDT:USDT",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DIA/USDT:USDT",
+    "base": "DIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000CAT/USDT:USDT",
+    "base": "1000CAT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SCR/USDT:USDT",
+    "base": "SCR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GOAT/USDT:USDT",
+    "base": "GOAT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MOODENG/USDT:USDT",
+    "base": "MOODENG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAFE/USDT:USDT",
+    "base": "SAFE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SANTOS/USDT:USDT",
+    "base": "SANTOS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TROY/USDT:USDT",
+    "base": "TROY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PONKE/USDT:USDT",
+    "base": "PONKE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COW/USDT:USDT",
+    "base": "COW",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CETUS/USDT:USDT",
+    "base": "CETUS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000000MOG/USDT:USDT",
+    "base": "1000000MOG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GRASS/USDT:USDT",
+    "base": "GRASS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DRIFT/USDT:USDT",
+    "base": "DRIFT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SWELL/USDT:USDT",
+    "base": "SWELL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ACT/USDT:USDT",
+    "base": "ACT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PNUT/USDT:USDT",
+    "base": "PNUT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HIPPO/USDT:USDT",
+    "base": "HIPPO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000X/USDT:USDT",
+    "base": "1000X",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DEGEN/USDT:USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAN/USDT:USDT",
+    "base": "BAN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AKT/USDT:USDT",
+    "base": "AKT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SLERF/USDT:USDT",
+    "base": "SLERF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SCRT/USDT:USDT",
+    "base": "SCRT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000CHEEMS/USDT:USDT",
+    "base": "1000CHEEMS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000WHY/USDT:USDT",
+    "base": "1000WHY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "THE/USDT:USDT",
+    "base": "THE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MORPHO/USDT:USDT",
+    "base": "MORPHO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CHILLGUY/USDT:USDT",
+    "base": "CHILLGUY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KAIA/USDT:USDT",
+    "base": "KAIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AERO/USDT:USDT",
+    "base": "AERO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ACX/USDT:USDT",
+    "base": "ACX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ORCA/USDT:USDT",
+    "base": "ORCA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MOVE/USDT:USDT",
+    "base": "MOVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RAYSOL/USDT:USDT",
+    "base": "RAYSOL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KOMA/USDT:USDT",
+    "base": "KOMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VIRTUAL/USDT:USDT",
+    "base": "VIRTUAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SPX/USDT:USDT",
+    "base": "SPX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ME/USDT:USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVA/USDT:USDT",
+    "base": "AVA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DEGO/USDT:USDT",
+    "base": "DEGO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VELODROME/USDT:USDT",
+    "base": "VELODROME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MOCA/USDT:USDT",
+    "base": "MOCA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VANA/USDT:USDT",
+    "base": "VANA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PENGU/USDT:USDT",
+    "base": "PENGU",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LUMIA/USDT:USDT",
+    "base": "LUMIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "USUAL/USDT:USDT",
+    "base": "USUAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AIXBT/USDT:USDT",
+    "base": "AIXBT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FARTCOIN/USDT:USDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KMNO/USDT:USDT",
+    "base": "KMNO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CGPT/USDT:USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HIVE/USDT:USDT",
+    "base": "HIVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DEXE/USDT:USDT",
+    "base": "DEXE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PHA/USDT:USDT",
+    "base": "PHA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DF/USDT:USDT",
+    "base": "DF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GRIFFAIN/USDT:USDT",
+    "base": "GRIFFAIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AI16Z/USDT:USDT",
+    "base": "AI16Z",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZEREBRO/USDT:USDT",
+    "base": "ZEREBRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BIO/USDT:USDT",
+    "base": "BIO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COOKIE/USDT:USDT",
+    "base": "COOKIE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALCH/USDT:USDT",
+    "base": "ALCH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SWARMS/USDT:USDT",
+    "base": "SWARMS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SONIC/USDT:USDT",
+    "base": "SONIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "D/USDT:USDT",
+    "base": "D",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PROM/USDT:USDT",
+    "base": "PROM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "S/USDT:USDT",
+    "base": "S",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOLV/USDT:USDT",
+    "base": "SOLV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARC/USDT:USDT",
+    "base": "ARC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVAAI/USDT:USDT",
+    "base": "AVAAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRUMP/USDT:USDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MELANIA/USDT:USDT",
+    "base": "MELANIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VTHO/USDT:USDT",
+    "base": "VTHO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ANIME/USDT:USDT",
+    "base": "ANIME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VINE/USDT:USDT",
+    "base": "VINE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PIPPIN/USDT:USDT",
+    "base": "PIPPIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VVV/USDT:USDT",
+    "base": "VVV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BERA/USDT:USDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TST/USDT:USDT",
+    "base": "TST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LAYER/USDT:USDT",
+    "base": "LAYER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HEI/USDT:USDT",
+    "base": "HEI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "B3/USDT:USDT",
+    "base": "B3",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IP/USDT:USDT",
+    "base": "IP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GPS/USDT:USDT",
+    "base": "GPS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SHELL/USDT:USDT",
+    "base": "SHELL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KAITO/USDT:USDT",
+    "base": "KAITO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KAITO/USDC:USDC",
+    "base": "KAITO",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IP/USDC:USDC",
+    "base": "IP",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRUMP/USDC:USDC",
+    "base": "TRUMP",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ADA/USDC:USDC",
+    "base": "ADA",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RED/USDT:USDT",
+    "base": "RED",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PNUT/USDC:USDC",
+    "base": "PNUT",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HBAR/USDC:USDC",
+    "base": "HBAR",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VIC/USDT:USDT",
+    "base": "VIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EPIC/USDT:USDT",
+    "base": "EPIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BMT/USDT:USDT",
+    "base": "BMT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MUBARAK/USDT:USDT",
+    "base": "MUBARAK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FORM/USDT:USDT",
+    "base": "FORM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BID/USDT:USDT",
+    "base": "BID",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TUT/USDT:USDT",
+    "base": "TUT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BROCCOLI714/USDT:USDT",
+    "base": "BROCCOLI714",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BROCCOLIF3B/USDT:USDT",
+    "base": "BROCCOLIF3B",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SIREN/USDT:USDT",
+    "base": "SIREN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BANANAS31/USDT:USDT",
+    "base": "BANANAS31",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BR/USDT:USDT",
+    "base": "BR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PLUME/USDT:USDT",
+    "base": "PLUME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NIL/USDT:USDT",
+    "base": "NIL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PARTI/USDT:USDT",
+    "base": "PARTI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JELLYJELLY/USDT:USDT",
+    "base": "JELLYJELLY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MAVIA/USDT:USDT",
+    "base": "MAVIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PAXG/USDT:USDT",
+    "base": "PAXG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WAL/USDT:USDT",
+    "base": "WAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FUN/USDT:USDT",
+    "base": "FUN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MLN/USDT:USDT",
+    "base": "MLN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GUN/USDT:USDT",
+    "base": "GUN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ATH/USDT:USDT",
+    "base": "ATH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BABY/USDT:USDT",
+    "base": "BABY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FORTH/USDT:USDT",
+    "base": "FORTH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PROMPT/USDT:USDT",
+    "base": "PROMPT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XCN/USDT:USDT",
+    "base": "XCN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STO/USDT:USDT",
+    "base": "STO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FHE/USDT:USDT",
+    "base": "FHE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KERNEL/USDT:USDT",
+    "base": "KERNEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WCT/USDT:USDT",
+    "base": "WCT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "INIT/USDT:USDT",
+    "base": "INIT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AERGO/USDT:USDT",
+    "base": "AERGO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BANK/USDT:USDT",
+    "base": "BANK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EPT/USDT:USDT",
+    "base": "EPT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DEEP/USDT:USDT",
+    "base": "DEEP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HYPER/USDT:USDT",
+    "base": "HYPER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MEMEFI/USDT:USDT",
+    "base": "MEMEFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIS/USDT:USDT",
+    "base": "FIS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JST/USDT:USDT",
+    "base": "JST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SIGN/USDT:USDT",
+    "base": "SIGN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PUNDIX/USDT:USDT",
+    "base": "PUNDIX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CTK/USDT:USDT",
+    "base": "CTK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AIOT/USDT:USDT",
+    "base": "AIOT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOLO/USDT:USDT",
+    "base": "DOLO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HAEDAL/USDT:USDT",
+    "base": "HAEDAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SXT/USDT:USDT",
+    "base": "SXT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ASR/USDT:USDT",
+    "base": "ASR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALPINE/USDT:USDT",
+    "base": "ALPINE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "B2/USDT:USDT",
+    "base": "B2",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MILK/USDT:USDT",
+    "base": "MILK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SYRUP/USDT:USDT",
+    "base": "SYRUP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OBOL/USDT:USDT",
+    "base": "OBOL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOOD/USDT:USDT",
+    "base": "DOOD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OG/USDT:USDT",
+    "base": "OG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZKJ/USDT:USDT",
+    "base": "ZKJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SKYAI/USDT:USDT",
+    "base": "SKYAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NXPC/USDT:USDT",
+    "base": "NXPC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CVC/USDT:USDT",
+    "base": "CVC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AGT/USDT:USDT",
+    "base": "AGT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AWE/USDT:USDT",
+    "base": "AWE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "B/USDT:USDT",
+    "base": "B",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOON/USDT:USDT",
+    "base": "SOON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HUMA/USDT:USDT",
+    "base": "HUMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "A/USDT:USDT",
+    "base": "A",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOPH/USDT:USDT",
+    "base": "SOPH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MERL/USDT:USDT",
+    "base": "MERL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HYPE/USDT:USDT",
+    "base": "HYPE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BDXN/USDT:USDT",
+    "base": "BDXN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PUFFER/USDT:USDT",
+    "base": "PUFFER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PORT3/USDT:USDT",
+    "base": "PORT3",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "1000000BOB/USDT:USDT",
+    "base": "1000000BOB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LA/USDT:USDT",
+    "base": "LA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SKATE/USDT:USDT",
+    "base": "SKATE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HOME/USDT:USDT",
+    "base": "HOME",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RESOLV/USDT:USDT",
+    "base": "RESOLV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TAIKO/USDT:USDT",
+    "base": "TAIKO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SQD/USDT:USDT",
+    "base": "SQD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PUMPBTC/USDT:USDT",
+    "base": "PUMPBTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AAVE/USDC:USDC",
+    "base": "AAVE",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UNI/USDC:USDC",
+    "base": "UNI",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SPK/USDT:USDT",
+    "base": "SPK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MYX/USDT:USDT",
+    "base": "MYX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "F/USDT:USDT",
+    "base": "F",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEWT/USDT:USDT",
+    "base": "NEWT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DMC/USDT:USDT",
+    "base": "DMC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "H/USDT:USDT",
+    "base": "H",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OL/USDT:USDT",
+    "base": "OL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAHARA/USDT:USDT",
+    "base": "SAHARA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ICNT/USDT:USDT",
+    "base": "ICNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BULLA/USDT:USDT",
+    "base": "BULLA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IDOL/USDT:USDT",
+    "base": "IDOL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "M/USDT:USDT",
+    "base": "M",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TANSSI/USDT:USDT",
+    "base": "TANSSI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PUMP/USDT:USDT",
+    "base": "PUMP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CROSS/USDT:USDT",
+    "base": "CROSS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AIN/USDT:USDT",
+    "base": "AIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "C/USDT:USDT",
+    "base": "C",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VELVET/USDT:USDT",
+    "base": "VELVET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TAC/USDT:USDT",
+    "base": "TAC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ERA/USDT:USDT",
+    "base": "ERA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TA/USDT:USDT",
+    "base": "TA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PENGU/USDC:USDC",
+    "base": "PENGU",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CVX/USDT:USDT",
+    "base": "CVX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SLP/USDT:USDT",
+    "base": "SLP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZORA/USDT:USDT",
+    "base": "ZORA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TAG/USDT:USDT",
+    "base": "TAG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZRC/USDT:USDT",
+    "base": "ZRC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ESPORTS/USDT:USDT",
+    "base": "ESPORTS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TREE/USDT:USDT",
+    "base": "TREE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "A2Z/USDT:USDT",
+    "base": "A2Z",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PLAY/USDT:USDT",
+    "base": "PLAY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NAORIS/USDT:USDT",
+    "base": "NAORIS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TOWNS/USDT:USDT",
+    "base": "TOWNS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PROVE/USDT:USDT",
+    "base": "PROVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALL/USDT:USDT",
+    "base": "ALL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 10.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IN/USDT:USDT",
+    "base": "IN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "YALA/USDT:USDT",
+    "base": "YALA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CARV/USDT:USDT",
+    "base": "CARV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AIO/USDT:USDT",
+    "base": "AIO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XNY/USDT:USDT",
+    "base": "XNY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "USELESS/USDT:USDT",
+    "base": "USELESS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DAM/USDT:USDT",
+    "base": "DAM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CUDIS/USDT:USDT",
+    "base": "CUDIS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAPIEN/USDT:USDT",
+    "base": "SAPIEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XPL/USDT:USDT",
+    "base": "XPL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WLFI/USDT:USDT",
+    "base": "WLFI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BIO/USDC:USDC",
+    "base": "BIO",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOMI/USDT:USDT",
+    "base": "SOMI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BAS/USDT:USDT",
+    "base": "BAS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTR/USDT:USDT",
+    "base": "BTR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MITO/USDT:USDT",
+    "base": "MITO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HEMI/USDT:USDT",
+    "base": "HEMI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LINEA/USDT:USDT",
+    "base": "LINEA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "Q/USDT:USDT",
+    "base": "Q",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ARIA/USDT:USDT",
+    "base": "ARIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TAKE/USDT:USDT",
+    "base": "TAKE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PTB/USDT:USDT",
+    "base": "PTB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WLFI/USDC:USDC",
+    "base": "WLFI",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OPEN/USDT:USDT",
+    "base": "OPEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FLOCK/USDT:USDT",
+    "base": "FLOCK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SKY/USDT:USDT",
+    "base": "SKY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVNT/USDT:USDT",
+    "base": "AVNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HOLO/USDT:USDT",
+    "base": "HOLO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XPIN/USDT:USDT",
+    "base": "XPIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UB/USDT:USDT",
+    "base": "UB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZKC/USDT:USDT",
+    "base": "ZKC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TOSHI/USDT:USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STBL/USDT:USDT",
+    "base": "STBL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "0G/USDT:USDT",
+    "base": "0G",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AIA/USDT:USDT",
+    "base": "AIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BARD/USDT:USDT",
+    "base": "BARD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ASTER/USDT:USDT",
+    "base": "ASTER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRADOOR/USDT:USDT",
+    "base": "TRADOOR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BLESS/USDT:USDT",
+    "base": "BLESS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FLUID/USDT:USDT",
+    "base": "FLUID",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COAI/USDT:USDT",
+    "base": "COAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "HANA/USDT:USDT",
+    "base": "HANA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MIRA/USDT:USDT",
+    "base": "MIRA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AKE/USDT:USDT",
+    "base": "AKE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ORDER/USDT:USDT",
+    "base": "ORDER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LIGHT/USDT:USDT",
+    "base": "LIGHT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XAN/USDT:USDT",
+    "base": "XAN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FF/USDT:USDT",
+    "base": "FF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VFY/USDT:USDT",
+    "base": "VFY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EDEN/USDT:USDT",
+    "base": "EDEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NOM/USDT:USDT",
+    "base": "NOM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRUTH/USDT:USDT",
+    "base": "TRUTH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "2Z/USDT:USDT",
+    "base": "2Z",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EVAA/USDT:USDT",
+    "base": "EVAA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LYN/USDT:USDT",
+    "base": "LYN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KGEN/USDT:USDT",
+    "base": "KGEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "4/USDT:USDT",
+    "base": "4",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GIGGLE/USDT:USDT",
+    "base": "GIGGLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MON/USDT:USDT",
+    "base": "MON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "YB/USDT:USDT",
+    "base": "YB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MET/USDT:USDT",
+    "base": "MET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "EUL/USDT:USDT",
+    "base": "EUL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENSO/USDT:USDT",
+    "base": "ENSO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CLO/USDT:USDT",
+    "base": "CLO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RECALL/USDT:USDT",
+    "base": "RECALL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZBT/USDT:USDT",
+    "base": "ZBT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LAB/USDT:USDT",
+    "base": "LAB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RIVER/USDT:USDT",
+    "base": "RIVER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RVV/USDT:USDT",
+    "base": "RVV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "币安人生/USDT:USDT",
+    "base": "币安人生",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BLUAI/USDT:USDT",
+    "base": "BLUAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TURTLE/USDT:USDT",
+    "base": "TURTLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "APR/USDT:USDT",
+    "base": "APR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ON/USDT:USDT",
+    "base": "ON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "42/USDT:USDT",
+    "base": "42",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COMMON/USDT:USDT",
+    "base": "COMMON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KITE/USDT:USDT",
+    "base": "KITE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AT/USDT:USDT",
+    "base": "AT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CC/USDT:USDT",
+    "base": "CC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MMT/USDT:USDT",
+    "base": "MMT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRUST/USDT:USDT",
+    "base": "TRUST",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UAI/USDT:USDT",
+    "base": "UAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FOLKS/USDT:USDT",
+    "base": "FOLKS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "STABLE/USDT:USDT",
+    "base": "STABLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "JCT/USDT:USDT",
+    "base": "JCT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALLO/USDT:USDT",
+    "base": "ALLO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CLANKER/USDT:USDT",
+    "base": "CLANKER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.01,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BEAT/USDT:USDT",
+    "base": "BEAT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "PIEVERSE/USDT:USDT",
+    "base": "PIEVERSE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SENT/USDT:USDT",
+    "base": "SENT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZEC/USDC:USDC",
+    "base": "ZEC",
+    "quote": "USDC",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GAIB/USDT:USDT",
+    "base": "GAIB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BOB/USDT:USDT",
+    "base": "BOB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IRYS/USDT:USDT",
+    "base": "IRYS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RLS/USDT:USDT",
+    "base": "RLS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "POWER/USDT:USDT",
+    "base": "POWER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WET/USDT:USDT",
+    "base": "WET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NIGHT/USDT:USDT",
+    "base": "NIGHT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XAU/USDT:USDT",
+    "base": "XAU",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "US/USDT:USDT",
+    "base": "US",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "CYS/USDT:USDT",
+    "base": "CYS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "RAVE/USDT:USDT",
+    "base": "RAVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZKP/USDT:USDT",
+    "base": "ZKP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GUA/USDT:USDT",
+    "base": "GUA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "IR/USDT:USDT",
+    "base": "IR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LIT/USDT:USDT",
+    "base": "LIT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.1,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BREV/USDT:USDT",
+    "base": "BREV",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "COLLECT/USDT:USDT",
+    "base": "COLLECT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "MAGMA/USDT:USDT",
+    "base": "MAGMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XAG/USDT:USDT",
+    "base": "XAG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 0.001,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZAMA/USDT:USDT",
+    "base": "ZAMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FOGO/USDT:USDT",
+    "base": "FOGO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FRAX/USDT:USDT",
+    "base": "FRAX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SPORTFUN/USDT:USDT",
+    "base": "SPORTFUN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BTC/USD:BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETH/USD:ETH",
+    "base": "ETH",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LINK/USD:LINK",
+    "base": "LINK",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BNB/USD:BNB",
+    "base": "BNB",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "TRX/USD:TRX",
+    "base": "TRX",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOT/USD:DOT",
+    "base": "DOT",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ADA/USD:ADA",
+    "base": "ADA",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "LTC/USD:LTC",
+    "base": "LTC",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "BCH/USD:BCH",
+    "base": "BCH",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XRP/USD:XRP",
+    "base": "XRP",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ETC/USD:ETC",
+    "base": "ETC",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "FIL/USD:FIL",
+    "base": "FIL",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "DOGE/USD:DOGE",
+    "base": "DOGE",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "UNI/USD:UNI",
+    "base": "UNI",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XLM/USD:XLM",
+    "base": "XLM",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SOL/USD:SOL",
+    "base": "SOL",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SAND/USD:SAND",
+    "base": "SAND",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AVAX/USD:AVAX",
+    "base": "AVAX",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "GALA/USD:GALA",
+    "base": "GALA",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "NEAR/USD:NEAR",
+    "base": "NEAR",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ATOM/USD:ATOM",
+    "base": "ATOM",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "AAVE/USD:AAVE",
+    "base": "AAVE",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ROSE/USD:ROSE",
+    "base": "ROSE",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "XTZ/USD:XTZ",
+    "base": "XTZ",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ICX/USD:ICX",
+    "base": "ICX",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ALGO/USD:ALGO",
+    "base": "ALGO",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "APE/USD:APE",
+    "base": "APE",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "VET/USD:VET",
+    "base": "VET",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ZIL/USD:ZIL",
+    "base": "ZIL",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "KNC/USD:KNC",
+    "base": "KNC",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "OP/USD:OP",
+    "base": "OP",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "ENS/USD:ENS",
+    "base": "ENS",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "APT/USD:APT",
+    "base": "APT",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WIF/USD:WIF",
+    "base": "WIF",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "SUI/USD:SUI",
+    "base": "SUI",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  },
+  {
+    "exchange_id": "binance",
+    "symbol": "WLD/USD:WLD",
+    "base": "WLD",
+    "quote": "USD",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": null
+  }
+]

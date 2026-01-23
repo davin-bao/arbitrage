@@ -1,0 +1,5438 @@
+[
+  {
+    "exchange_id": "gateio",
+    "symbol": "PERP/USDT",
+    "base": "PERP",
+    "quote": "USDT",
+    "contract_size": null,
+    "min_qty": 1.0,
+    "leverage_max": 4.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZEC/USDT:USDT",
+    "base": "ZEC",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GRASS/USDT:USDT",
+    "base": "GRASS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ICX/USDT:USDT",
+    "base": "ICX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JDON/USDT:USDT",
+    "base": "JDON",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DUSK/USDT:USDT",
+    "base": "DUSK",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIXBT/USDT:USDT",
+    "base": "AIXBT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EPT/USDT:USDT",
+    "base": "EPT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XDC/USDT:USDT",
+    "base": "XDC",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RON/USDT:USDT",
+    "base": "RON",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MANA/USDT:USDT",
+    "base": "MANA",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "42/USDT:USDT",
+    "base": "42",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SIGN/USDT:USDT",
+    "base": "SIGN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BROCCOLIF3B/USDT:USDT",
+    "base": "BROCCOLIF3B",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ESPORTS/USDT:USDT",
+    "base": "ESPORTS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TSLAX/USDT:USDT",
+    "base": "TSLAX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HYPER/USDT:USDT",
+    "base": "HYPER",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PAXG/USDT:USDT",
+    "base": "PAXG",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DEXE/USDT:USDT",
+    "base": "DEXE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ACT/USDT:USDT",
+    "base": "ACT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ENJ/USDT:USDT",
+    "base": "ENJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RDNT/USDT:USDT",
+    "base": "RDNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EVAA/USDT:USDT",
+    "base": "EVAA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SWARMS/USDT:USDT",
+    "base": "SWARMS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "B2/USDT:USDT",
+    "base": "B2",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SUI/USDT:USDT",
+    "base": "SUI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EGLD/USDT:USDT",
+    "base": "EGLD",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KNC/USDT:USDT",
+    "base": "KNC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PNUT/USDT:USDT",
+    "base": "PNUT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BOB/USDT:USDT",
+    "base": "BOB",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SC/USDT:USDT",
+    "base": "SC",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NMR/USDT:USDT",
+    "base": "NMR",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PIEVERSE/USDT:USDT",
+    "base": "PIEVERSE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BEL/USDT:USDT",
+    "base": "BEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZRC/USDT:USDT",
+    "base": "ZRC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARIA/USDT:USDT",
+    "base": "ARIA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HIPPO/USDT:USDT",
+    "base": "HIPPO",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "INJ/USDT:USDT",
+    "base": "INJ",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NEWT/USDT:USDT",
+    "base": "NEWT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CAKE/USDT:USDT",
+    "base": "CAKE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KITE/USDT:USDT",
+    "base": "KITE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "雪球/USDT:USDT",
+    "base": "雪球",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BEAMX/USDT:USDT",
+    "base": "BEAMX",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ETH/USDT:USDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 200.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FORM/USDT:USDT",
+    "base": "FORM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COMMON/USDT:USDT",
+    "base": "COMMON",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MET/USDT:USDT",
+    "base": "MET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "D/USDT:USDT",
+    "base": "D",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MOVR/USDT:USDT",
+    "base": "MOVR",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAIKO/USDT:USDT",
+    "base": "TAIKO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SYRUP/USDT:USDT",
+    "base": "SYRUP",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ACE/USDT:USDT",
+    "base": "ACE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ANIME/USDT:USDT",
+    "base": "ANIME",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FUN/USDT:USDT",
+    "base": "FUN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FRAX/USDT:USDT",
+    "base": "FRAX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OWL/USDT:USDT",
+    "base": "OWL",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "USTC/USDT:USDT",
+    "base": "USTC",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "H/USDT:USDT",
+    "base": "H",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "1INCH/USDT:USDT",
+    "base": "1INCH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZKP/USDT:USDT",
+    "base": "ZKP",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COINX/USDT:USDT",
+    "base": "COINX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XNO/USDT:USDT",
+    "base": "XNO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "YALA/USDT:USDT",
+    "base": "YALA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HANA/USDT:USDT",
+    "base": "HANA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ONG/USDT:USDT",
+    "base": "ONG",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "METAX/USDT:USDT",
+    "base": "METAX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAG/USDT:USDT",
+    "base": "TAG",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RAY/USDT:USDT",
+    "base": "RAY",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "APE/USDT:USDT",
+    "base": "APE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BNB/USDT:USDT",
+    "base": "BNB",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DAM/USDT:USDT",
+    "base": "DAM",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SPYX/USDT:USDT",
+    "base": "SPYX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TON/USDT:USDT",
+    "base": "TON",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XCN/USDT:USDT",
+    "base": "XCN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "QQQX/USDT:USDT",
+    "base": "QQQX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOT/USDT:USDT",
+    "base": "DOT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FWOG/USDT:USDT",
+    "base": "FWOG",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LA/USDT:USDT",
+    "base": "LA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MSTRX/USDT:USDT",
+    "base": "MSTRX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NFP/USDT:USDT",
+    "base": "NFP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLOKI/USDT:USDT",
+    "base": "FLOKI",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ADA/USDT:USDT",
+    "base": "ADA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "THE/USDT:USDT",
+    "base": "THE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RIVER/USDT:USDT",
+    "base": "RIVER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ANKR/USDT:USDT",
+    "base": "ANKR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRX/USDT:USDT",
+    "base": "TRX",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OPEN/USDT:USDT",
+    "base": "OPEN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PLUME/USDT:USDT",
+    "base": "PLUME",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MTL/USDT:USDT",
+    "base": "MTL",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MEME/USDT:USDT",
+    "base": "MEME",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SAND/USDT:USDT",
+    "base": "SAND",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PLAY/USDT:USDT",
+    "base": "PLAY",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SOMI/USDT:USDT",
+    "base": "SOMI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BLUR/USDT:USDT",
+    "base": "BLUR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LUNC/USDT:USDT",
+    "base": "LUNC",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TSTBSC/USDT:USDT",
+    "base": "TSTBSC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BAT/USDT:USDT",
+    "base": "BAT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PHA/USDT:USDT",
+    "base": "PHA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ERA/USDT:USDT",
+    "base": "ERA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOOD/USDT:USDT",
+    "base": "DOOD",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DN/USDT:USDT",
+    "base": "DN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BNT/USDT:USDT",
+    "base": "BNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TIA/USDT:USDT",
+    "base": "TIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "UB/USDT:USDT",
+    "base": "UB",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XPIN/USDT:USDT",
+    "base": "XPIN",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JCT/USDT:USDT",
+    "base": "JCT",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WLD/USDT:USDT",
+    "base": "WLD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIN/USDT:USDT",
+    "base": "AIN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CAT/USDT:USDT",
+    "base": "CAT",
+    "quote": "USDT",
+    "contract_size": 100000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KAITO/USDT:USDT",
+    "base": "KAITO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIOT/USDT:USDT",
+    "base": "AIOT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZEREBRO/USDT:USDT",
+    "base": "ZEREBRO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ETHFI/USDT:USDT",
+    "base": "ETHFI",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COMP/USDT:USDT",
+    "base": "COMP",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LYN/USDT:USDT",
+    "base": "LYN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KERNEL/USDT:USDT",
+    "base": "KERNEL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLOCK/USDT:USDT",
+    "base": "FLOCK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CHR/USDT:USDT",
+    "base": "CHR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SOPH/USDT:USDT",
+    "base": "SOPH",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "USDC/USDT:USDT",
+    "base": "USDC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PEAQ/USDT:USDT",
+    "base": "PEAQ",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRB/USDT:USDT",
+    "base": "TRB",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CTK/USDT:USDT",
+    "base": "CTK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XAG/USDT:USDT",
+    "base": "XAG",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BR/USDT:USDT",
+    "base": "BR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FF/USDT:USDT",
+    "base": "FF",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HOT/USDT:USDT",
+    "base": "HOT",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PROVE/USDT:USDT",
+    "base": "PROVE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CHESS/USDT:USDT",
+    "base": "CHESS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRUST/USDT:USDT",
+    "base": "TRUST",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NVDAX/USDT:USDT",
+    "base": "NVDAX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAC/USDT:USDT",
+    "base": "TAC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "2Z/USDT:USDT",
+    "base": "2Z",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LPT/USDT:USDT",
+    "base": "LPT",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MOCA/USDT:USDT",
+    "base": "MOCA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALGO/USDT:USDT",
+    "base": "ALGO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IP/USDT:USDT",
+    "base": "IP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "草根文化/USDT:USDT",
+    "base": "草根文化",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SHIB/USDT:USDT",
+    "base": "SHIB",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FORTH/USDT:USDT",
+    "base": "FORTH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BSV/USDT:USDT",
+    "base": "BSV",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MUBARAK/USDT:USDT",
+    "base": "MUBARAK",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BMT/USDT:USDT",
+    "base": "BMT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AERO/USDT:USDT",
+    "base": "AERO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SFP/USDT:USDT",
+    "base": "SFP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JELLYJELLY/USDT:USDT",
+    "base": "JELLYJELLY",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SEI/USDT:USDT",
+    "base": "SEI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GMX/USDT:USDT",
+    "base": "GMX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 33.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IDEX/USDT:USDT",
+    "base": "IDEX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALICE/USDT:USDT",
+    "base": "ALICE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OG/USDT:USDT",
+    "base": "OG",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "POLYX/USDT:USDT",
+    "base": "POLYX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALPINE/USDT:USDT",
+    "base": "ALPINE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BLUAI/USDT:USDT",
+    "base": "BLUAI",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ICP/USDT:USDT",
+    "base": "ICP",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JTO/USDT:USDT",
+    "base": "JTO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CRO/USDT:USDT",
+    "base": "CRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 16.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BTR/USDT:USDT",
+    "base": "BTR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CVC/USDT:USDT",
+    "base": "CVC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "INIT/USDT:USDT",
+    "base": "INIT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HMSTR/USDT:USDT",
+    "base": "HMSTR",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XNY/USDT:USDT",
+    "base": "XNY",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MINA/USDT:USDT",
+    "base": "MINA",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MEW/USDT:USDT",
+    "base": "MEW",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GOAT/USDT:USDT",
+    "base": "GOAT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZIL/USDT:USDT",
+    "base": "ZIL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XMR/USDT:USDT",
+    "base": "XMR",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PENDLE/USDT:USDT",
+    "base": "PENDLE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CC/USDT:USDT",
+    "base": "CC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NIGHT/USDT:USDT",
+    "base": "NIGHT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "G/USDT:USDT",
+    "base": "G",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STBL/USDT:USDT",
+    "base": "STBL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TURBO/USDT:USDT",
+    "base": "TURBO",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZEUS/USDT:USDT",
+    "base": "ZEUS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZRX/USDT:USDT",
+    "base": "ZRX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NOM/USDT:USDT",
+    "base": "NOM",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AVAAI/USDT:USDT",
+    "base": "AVAAI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SPX/USDT:USDT",
+    "base": "SPX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "人生K线/USDT:USDT",
+    "base": "人生K线",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HYPE/USDT:USDT",
+    "base": "HYPE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GT/USDT:USDT",
+    "base": "GT",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 5.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VET/USDT:USDT",
+    "base": "VET",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XAN/USDT:USDT",
+    "base": "XAN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TURTLE/USDT:USDT",
+    "base": "TURTLE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XAUT/USDT:USDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BICO/USDT:USDT",
+    "base": "BICO",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COW/USDT:USDT",
+    "base": "COW",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CATI/USDT:USDT",
+    "base": "CATI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ACH/USDT:USDT",
+    "base": "ACH",
+    "quote": "USDT",
+    "contract_size": 11.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AR/USDT:USDT",
+    "base": "AR",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SPELL/USDT:USDT",
+    "base": "SPELL",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IMX/USDT:USDT",
+    "base": "IMX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HOME/USDT:USDT",
+    "base": "HOME",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VIRTUAL/USDT:USDT",
+    "base": "VIRTUAL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HNT/USDT:USDT",
+    "base": "HNT",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALT/USDT:USDT",
+    "base": "ALT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "YFI/USDT:USDT",
+    "base": "YFI",
+    "quote": "USDT",
+    "contract_size": 0.0001,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DYM/USDT:USDT",
+    "base": "DYM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NEAR/USDT:USDT",
+    "base": "NEAR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "老子/USDT:USDT",
+    "base": "老子",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WET/USDT:USDT",
+    "base": "WET",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "USUAL/USDT:USDT",
+    "base": "USUAL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XVS/USDT:USDT",
+    "base": "XVS",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BAND/USDT:USDT",
+    "base": "BAND",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NKN/USDT:USDT",
+    "base": "NKN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZETA/USDT:USDT",
+    "base": "ZETA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GAIB/USDT:USDT",
+    "base": "GAIB",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BCH/USDT:USDT",
+    "base": "BCH",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VANRY/USDT:USDT",
+    "base": "VANRY",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SKYAI/USDT:USDT",
+    "base": "SKYAI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZK/USDT:USDT",
+    "base": "ZK",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ASR/USDT:USDT",
+    "base": "ASR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CHEEMS/USDT:USDT",
+    "base": "CHEEMS",
+    "quote": "USDT",
+    "contract_size": 10000000.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARK/USDT:USDT",
+    "base": "ARK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BRETT/USDT:USDT",
+    "base": "BRETT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 60.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NAORIS/USDT:USDT",
+    "base": "NAORIS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FIDA/USDT:USDT",
+    "base": "FIDA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ON/USDT:USDT",
+    "base": "ON",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STRK/USDT:USDT",
+    "base": "STRK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LAB/USDT:USDT",
+    "base": "LAB",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BGSC/USDT:USDT",
+    "base": "BGSC",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CELO/USDT:USDT",
+    "base": "CELO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CRV/USDT:USDT",
+    "base": "CRV",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PEOPLE/USDT:USDT",
+    "base": "PEOPLE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VELODROME/USDT:USDT",
+    "base": "VELODROME",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IOTX/USDT:USDT",
+    "base": "IOTX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WAXP/USDT:USDT",
+    "base": "WAXP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CYBER/USDT:USDT",
+    "base": "CYBER",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 40.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ATOM/USDT:USDT",
+    "base": "ATOM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RLC/USDT:USDT",
+    "base": "RLC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BOBA/USDT:USDT",
+    "base": "BOBA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HBAR/USDT:USDT",
+    "base": "HBAR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NOT/USDT:USDT",
+    "base": "NOT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PENGU/USDT:USDT",
+    "base": "PENGU",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RVV/USDT:USDT",
+    "base": "RVV",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GMT/USDT:USDT",
+    "base": "GMT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XAU/USDT:USDT",
+    "base": "XAU",
+    "quote": "USDT",
+    "contract_size": 0.0001,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GLM/USDT:USDT",
+    "base": "GLM",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GALA/USDT:USDT",
+    "base": "GALA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOLO/USDT:USDT",
+    "base": "DOLO",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PUNDIX/USDT:USDT",
+    "base": "PUNDIX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AMZNX/USDT:USDT",
+    "base": "AMZNX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DF/USDT:USDT",
+    "base": "DF",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PEPE/USDT:USDT",
+    "base": "PEPE",
+    "quote": "USDT",
+    "contract_size": 10000000.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FOGO/USDT:USDT",
+    "base": "FOGO",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "YZY/USDT:USDT",
+    "base": "YZY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HOODX/USDT:USDT",
+    "base": "HOODX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TQQQX/USDT:USDT",
+    "base": "TQQQX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "C/USDT:USDT",
+    "base": "C",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CKB/USDT:USDT",
+    "base": "CKB",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AKT/USDT:USDT",
+    "base": "AKT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GOOGLX/USDT:USDT",
+    "base": "GOOGLX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BANK/USDT:USDT",
+    "base": "BANK",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SONIC/USDT:USDT",
+    "base": "SONIC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ETHW/USDT:USDT",
+    "base": "ETHW",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SKY/USDT:USDT",
+    "base": "SKY",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALEO/USDT:USDT",
+    "base": "ALEO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "币安人生/USDT:USDT",
+    "base": "币安人生",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COS/USDT:USDT",
+    "base": "COS",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BTC/USDT:USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "contract_size": 0.0001,
+    "min_qty": 1.0,
+    "leverage_max": 200.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GUN/USDT:USDT",
+    "base": "GUN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JOE/USDT:USDT",
+    "base": "JOE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "我踏马来了/USDT:USDT",
+    "base": "我踏马来了",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GPS/USDT:USDT",
+    "base": "GPS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 40.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BREV/USDT:USDT",
+    "base": "BREV",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DEEP/USDT:USDT",
+    "base": "DEEP",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IRYS/USDT:USDT",
+    "base": "IRYS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MNT/USDT:USDT",
+    "base": "MNT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BOME/USDT:USDT",
+    "base": "BOME",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VELVET/USDT:USDT",
+    "base": "VELVET",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CTC/USDT:USDT",
+    "base": "CTC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VANA/USDT:USDT",
+    "base": "VANA",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FARTCOIN/USDT:USDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALMANAK/USDT:USDT",
+    "base": "ALMANAK",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AVAX/USDT:USDT",
+    "base": "AVAX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BLAST/USDT:USDT",
+    "base": "BLAST",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NTRN/USDT:USDT",
+    "base": "NTRN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VTHO/USDT:USDT",
+    "base": "VTHO",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SNX/USDT:USDT",
+    "base": "SNX",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BAS/USDT:USDT",
+    "base": "BAS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HAEDAL/USDT:USDT",
+    "base": "HAEDAL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AUCTION/USDT:USDT",
+    "base": "AUCTION",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BABY/USDT:USDT",
+    "base": "BABY",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VVV/USDT:USDT",
+    "base": "VVV",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XRP/USDT:USDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VOOI/USDT:USDT",
+    "base": "VOOI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ONT/USDT:USDT",
+    "base": "ONT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRUTH/USDT:USDT",
+    "base": "TRUTH",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RAVE/USDT:USDT",
+    "base": "RAVE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STO/USDT:USDT",
+    "base": "STO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DASH/USDT:USDT",
+    "base": "DASH",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PIXEL/USDT:USDT",
+    "base": "PIXEL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WCT/USDT:USDT",
+    "base": "WCT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ETC/USDT:USDT",
+    "base": "ETC",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 60.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ASTER/USDT:USDT",
+    "base": "ASTER",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LISTA/USDT:USDT",
+    "base": "LISTA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALCH/USDT:USDT",
+    "base": "ALCH",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ENA/USDT:USDT",
+    "base": "ENA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MYX/USDT:USDT",
+    "base": "MYX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "POWR/USDT:USDT",
+    "base": "POWR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CVX/USDT:USDT",
+    "base": "CVX",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TOWNS/USDT:USDT",
+    "base": "TOWNS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MMT/USDT:USDT",
+    "base": "MMT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CRCLX/USDT:USDT",
+    "base": "CRCLX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HIVE/USDT:USDT",
+    "base": "HIVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JASMY/USDT:USDT",
+    "base": "JASMY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LSK/USDT:USDT",
+    "base": "LSK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SUPER/USDT:USDT",
+    "base": "SUPER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SCRT/USDT:USDT",
+    "base": "SCRT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SAFE/USDT:USDT",
+    "base": "SAFE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NEO/USDT:USDT",
+    "base": "NEO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "QNT/USDT:USDT",
+    "base": "QNT",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HOOK/USDT:USDT",
+    "base": "HOOK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "US/USDT:USDT",
+    "base": "US",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 40.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RUNE/USDT:USDT",
+    "base": "RUNE",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLOW/USDT:USDT",
+    "base": "FLOW",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VINE/USDT:USDT",
+    "base": "VINE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PARTI/USDT:USDT",
+    "base": "PARTI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LINEA/USDT:USDT",
+    "base": "LINEA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOGE/USDT:USDT",
+    "base": "DOGE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "C98/USDT:USDT",
+    "base": "C98",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VOXEL/USDT:USDT",
+    "base": "VOXEL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALL/USDT:USDT",
+    "base": "ALL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "4/USDT:USDT",
+    "base": "4",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TANSSI/USDT:USDT",
+    "base": "TANSSI",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CELR/USDT:USDT",
+    "base": "CELR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AKE/USDT:USDT",
+    "base": "AKE",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ENS/USDT:USDT",
+    "base": "ENS",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IO/USDT:USDT",
+    "base": "IO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SAGA/USDT:USDT",
+    "base": "SAGA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PLTRX/USDT:USDT",
+    "base": "PLTRX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "Q/USDT:USDT",
+    "base": "Q",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "POPCAT/USDT:USDT",
+    "base": "POPCAT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PROM/USDT:USDT",
+    "base": "PROM",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IOST/USDT:USDT",
+    "base": "IOST",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LDO/USDT:USDT",
+    "base": "LDO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARC/USDT:USDT",
+    "base": "ARC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DEGO/USDT:USDT",
+    "base": "DEGO",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HUMA/USDT:USDT",
+    "base": "HUMA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TA/USDT:USDT",
+    "base": "TA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AAPLX/USDT:USDT",
+    "base": "AAPLX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STABLE/USDT:USDT",
+    "base": "STABLE",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIOZ/USDT:USDT",
+    "base": "AIOZ",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MANTA/USDT:USDT",
+    "base": "MANTA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARPA/USDT:USDT",
+    "base": "ARPA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XTZ/USDT:USDT",
+    "base": "XTZ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SNT/USDT:USDT",
+    "base": "SNT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LAYER/USDT:USDT",
+    "base": "LAYER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AVNT/USDT:USDT",
+    "base": "AVNT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ID/USDT:USDT",
+    "base": "ID",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MAVIA/USDT:USDT",
+    "base": "MAVIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GAS/USDT:USDT",
+    "base": "GAS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "APR/USDT:USDT",
+    "base": "APR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MOODENG/USDT:USDT",
+    "base": "MOODENG",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "REZ/USDT:USDT",
+    "base": "REZ",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "F/USDT:USDT",
+    "base": "F",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CUDIS/USDT:USDT",
+    "base": "CUDIS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LQTY/USDT:USDT",
+    "base": "LQTY",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RVN/USDT:USDT",
+    "base": "RVN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RESOLV/USDT:USDT",
+    "base": "RESOLV",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RPL/USDT:USDT",
+    "base": "RPL",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SATS/USDT:USDT",
+    "base": "SATS",
+    "quote": "USDT",
+    "contract_size": 10000000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XION/USDT:USDT",
+    "base": "XION",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ASTR/USDT:USDT",
+    "base": "ASTR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAI/USDT:USDT",
+    "base": "TAI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ONE/USDT:USDT",
+    "base": "ONE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CROSS/USDT:USDT",
+    "base": "CROSS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COTI/USDT:USDT",
+    "base": "COTI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AWE/USDT:USDT",
+    "base": "AWE",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZKC/USDT:USDT",
+    "base": "ZKC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "UAI/USDT:USDT",
+    "base": "UAI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "POL/USDT:USDT",
+    "base": "POL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZBT/USDT:USDT",
+    "base": "ZBT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SSV/USDT:USDT",
+    "base": "SSV",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OM/USDT:USDT",
+    "base": "OM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RedLang/USDT:USDT",
+    "base": "RedLang",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TOSHI/USDT:USDT",
+    "base": "TOSHI",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "UNI/USDT:USDT",
+    "base": "UNI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COOKIE/USDT:USDT",
+    "base": "COOKIE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FUTUON/USDT:USDT",
+    "base": "FUTUON",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AAVE/USDT:USDT",
+    "base": "AAVE",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARKM/USDT:USDT",
+    "base": "ARKM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LTC/USDT:USDT",
+    "base": "LTC",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DENT/USDT:USDT",
+    "base": "DENT",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "0G/USDT:USDT",
+    "base": "0G",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HOLO/USDT:USDT",
+    "base": "HOLO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "M/USDT:USDT",
+    "base": "M",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BIGTIME/USDT:USDT",
+    "base": "BIGTIME",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRADOOR/USDT:USDT",
+    "base": "TRADOOR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ENSO/USDT:USDT",
+    "base": "ENSO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BB/USDT:USDT",
+    "base": "BB",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "QUBIC/USDT:USDT",
+    "base": "QUBIC",
+    "quote": "USDT",
+    "contract_size": 1000000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SLVON/USDT:USDT",
+    "base": "SLVON",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SOON/USDT:USDT",
+    "base": "SOON",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KAS/USDT:USDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PI/USDT:USDT",
+    "base": "PI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "A2Z/USDT:USDT",
+    "base": "A2Z",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CYS/USDT:USDT",
+    "base": "CYS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OGN/USDT:USDT",
+    "base": "OGN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OKB/USDT:USDT",
+    "base": "OKB",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TLM/USDT:USDT",
+    "base": "TLM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOGS/USDT:USDT",
+    "base": "DOGS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ICNT/USDT:USDT",
+    "base": "ICNT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ORDI/USDT:USDT",
+    "base": "ORDI",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SOLV/USDT:USDT",
+    "base": "SOLV",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "B/USDT:USDT",
+    "base": "B",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MBABYDOGE/USDT:USDT",
+    "base": "MBABYDOGE",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SUN/USDT:USDT",
+    "base": "SUN",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STG/USDT:USDT",
+    "base": "STG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 33.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DFDVX/USDT:USDT",
+    "base": "DFDVX",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AXS/USDT:USDT",
+    "base": "AXS",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SOL/USDT:USDT",
+    "base": "SOL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XAI/USDT:USDT",
+    "base": "XAI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VIC/USDT:USDT",
+    "base": "VIC",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PYTH/USDT:USDT",
+    "base": "PYTH",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MAGIC/USDT:USDT",
+    "base": "MAGIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZKJ/USDT:USDT",
+    "base": "ZKJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "POWER/USDT:USDT",
+    "base": "POWER",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DBR/USDT:USDT",
+    "base": "DBR",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZORA/USDT:USDT",
+    "base": "ZORA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IOTA/USDT:USDT",
+    "base": "IOTA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SAHARA/USDT:USDT",
+    "base": "SAHARA",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AGT/USDT:USDT",
+    "base": "AGT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PIPPIN/USDT:USDT",
+    "base": "PIPPIN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BONK/USDT:USDT",
+    "base": "BONK",
+    "quote": "USDT",
+    "contract_size": 1000000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IR/USDT:USDT",
+    "base": "IR",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RSR/USDT:USDT",
+    "base": "RSR",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MOVE/USDT:USDT",
+    "base": "MOVE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "USELESS/USDT:USDT",
+    "base": "USELESS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OXT/USDT:USDT",
+    "base": "OXT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AERGO/USDT:USDT",
+    "base": "AERGO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "T/USDT:USDT",
+    "base": "T",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CGPT/USDT:USDT",
+    "base": "CGPT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XPL/USDT:USDT",
+    "base": "XPL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LINK/USDT:USDT",
+    "base": "LINK",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KGEN/USDT:USDT",
+    "base": "KGEN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NXPC/USDT:USDT",
+    "base": "NXPC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CFX/USDT:USDT",
+    "base": "CFX",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DGB/USDT:USDT",
+    "base": "DGB",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MBOX/USDT:USDT",
+    "base": "MBOX",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DYDX/USDT:USDT",
+    "base": "DYDX",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LUNA/USDT:USDT",
+    "base": "LUNA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AGI/USDT:USDT",
+    "base": "AGI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PRCL/USDT:USDT",
+    "base": "PRCL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SQD/USDT:USDT",
+    "base": "SQD",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ES/USDT:USDT",
+    "base": "ES",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DOG/USDT:USDT",
+    "base": "DOG",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EDU/USDT:USDT",
+    "base": "EDU",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CLO/USDT:USDT",
+    "base": "CLO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XLM/USDT:USDT",
+    "base": "XLM",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RDDTON/USDT:USDT",
+    "base": "RDDTON",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EPIC/USDT:USDT",
+    "base": "EPIC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BANANAS31/USDT:USDT",
+    "base": "BANANAS31",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AT/USDT:USDT",
+    "base": "AT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AVL/USDT:USDT",
+    "base": "AVL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TREE/USDT:USDT",
+    "base": "TREE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EDEN/USDT:USDT",
+    "base": "EDEN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RIF/USDT:USDT",
+    "base": "RIF",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RATS/USDT:USDT",
+    "base": "RATS",
+    "quote": "USDT",
+    "contract_size": 10000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "B3/USDT:USDT",
+    "base": "B3",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "黑马/USDT:USDT",
+    "base": "黑马",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZAMA/USDT:USDT",
+    "base": "ZAMA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZRO/USDT:USDT",
+    "base": "ZRO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RARE/USDT:USDT",
+    "base": "RARE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLUX/USDT:USDT",
+    "base": "FLUX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BANANA/USDT:USDT",
+    "base": "BANANA",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LRC/USDT:USDT",
+    "base": "LRC",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIA/USDT:USDT",
+    "base": "AIA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LIT/USDT:USDT",
+    "base": "LIT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FOLKS/USDT:USDT",
+    "base": "FOLKS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AI/USDT:USDT",
+    "base": "AI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AVA/USDT:USDT",
+    "base": "AVA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SXT/USDT:USDT",
+    "base": "SXT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CTSI/USDT:USDT",
+    "base": "CTSI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AGLD/USDT:USDT",
+    "base": "AGLD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "YGG/USDT:USDT",
+    "base": "YGG",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SD/USDT:USDT",
+    "base": "SD",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OP/USDT:USDT",
+    "base": "OP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SHELL/USDT:USDT",
+    "base": "SHELL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SAPIEN/USDT:USDT",
+    "base": "SAPIEN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MORPHO/USDT:USDT",
+    "base": "MORPHO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRUMP/USDT:USDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "XCH/USDT:USDT",
+    "base": "XCH",
+    "quote": "USDT",
+    "contract_size": 0.001,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IN/USDT:USDT",
+    "base": "IN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SLP/USDT:USDT",
+    "base": "SLP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BLESS/USDT:USDT",
+    "base": "BLESS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "IDOL/USDT:USDT",
+    "base": "IDOL",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SUSHI/USDT:USDT",
+    "base": "SUSHI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HIGH/USDT:USDT",
+    "base": "HIGH",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "METIS/USDT:USDT",
+    "base": "METIS",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLUID/USDT:USDT",
+    "base": "FLUID",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ARB/USDT:USDT",
+    "base": "ARB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 60.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ORCLX/USDT:USDT",
+    "base": "ORCLX",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VELO/USDT:USDT",
+    "base": "VELO",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STEEM/USDT:USDT",
+    "base": "STEEM",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BAN/USDT:USDT",
+    "base": "BAN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WAL/USDT:USDT",
+    "base": "WAL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WAVES/USDT:USDT",
+    "base": "WAVES",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DIA/USDT:USDT",
+    "base": "DIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "VFY/USDT:USDT",
+    "base": "VFY",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SENT/USDT:USDT",
+    "base": "SENT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COLLECT/USDT:USDT",
+    "base": "COLLECT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FIL/USDT:USDT",
+    "base": "FIL",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KOMA/USDT:USDT",
+    "base": "KOMA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FHE/USDT:USDT",
+    "base": "FHE",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CORE/USDT:USDT",
+    "base": "CORE",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KAIA/USDT:USDT",
+    "base": "KAIA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MAV/USDT:USDT",
+    "base": "MAV",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MERL/USDT:USDT",
+    "base": "MERL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PUFFER/USDT:USDT",
+    "base": "PUFFER",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ALLO/USDT:USDT",
+    "base": "ALLO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KAVA/USDT:USDT",
+    "base": "KAVA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SIREN/USDT:USDT",
+    "base": "SIREN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PROMPT/USDT:USDT",
+    "base": "PROMPT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WIF/USDT:USDT",
+    "base": "WIF",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BDXN/USDT:USDT",
+    "base": "BDXN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STORJ/USDT:USDT",
+    "base": "STORJ",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CARV/USDT:USDT",
+    "base": "CARV",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SPK/USDT:USDT",
+    "base": "SPK",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DRIFT/USDT:USDT",
+    "base": "DRIFT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "W/USDT:USDT",
+    "base": "W",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KMNO/USDT:USDT",
+    "base": "KMNO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ASP/USDT:USDT",
+    "base": "ASP",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TWT/USDT:USDT",
+    "base": "TWT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "YB/USDT:USDT",
+    "base": "YB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SXP/USDT:USDT",
+    "base": "SXP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CLANKER/USDT:USDT",
+    "base": "CLANKER",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "API3/USDT:USDT",
+    "base": "API3",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "OL/USDT:USDT",
+    "base": "OL",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WLFI/USDT:USDT",
+    "base": "WLFI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ACX/USDT:USDT",
+    "base": "ACX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PHB/USDT:USDT",
+    "base": "PHB",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 33.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RENDER/USDT:USDT",
+    "base": "RENDER",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LIGHT/USDT:USDT",
+    "base": "LIGHT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "UMA/USDT:USDT",
+    "base": "UMA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CHILLGUY/USDT:USDT",
+    "base": "CHILLGUY",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "THETA/USDT:USDT",
+    "base": "THETA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CAMP/USDT:USDT",
+    "base": "CAMP",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EUL/USDT:USDT",
+    "base": "EUL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AIO/USDT:USDT",
+    "base": "AIO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HFT/USDT:USDT",
+    "base": "HFT",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ONDO/USDT:USDT",
+    "base": "ONDO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JUP/USDT:USDT",
+    "base": "JUP",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "KSM/USDT:USDT",
+    "base": "KSM",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 33.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MOG/USDT:USDT",
+    "base": "MOG",
+    "quote": "USDT",
+    "contract_size": 100000.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "小股东/USDT:USDT",
+    "base": "小股东",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FIS/USDT:USDT",
+    "base": "FIS",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "EIGEN/USDT:USDT",
+    "base": "EIGEN",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PUMP/USDT:USDT",
+    "base": "PUMP",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MAGMA/USDT:USDT",
+    "base": "MAGMA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BERA/USDT:USDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "WOO/USDT:USDT",
+    "base": "WOO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ILV/USDT:USDT",
+    "base": "ILV",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "QTUM/USDT:USDT",
+    "base": "QTUM",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAKE/USDT:USDT",
+    "base": "TAKE",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TAO/USDT:USDT",
+    "base": "TAO",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SCR/USDT:USDT",
+    "base": "SCR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ORCA/USDT:USDT",
+    "base": "ORCA",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "A/USDT:USDT",
+    "base": "A",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BIO/USDT:USDT",
+    "base": "BIO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GIGGLE/USDT:USDT",
+    "base": "GIGGLE",
+    "quote": "USDT",
+    "contract_size": 0.01,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FET/USDT:USDT",
+    "base": "FET",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "AEVO/USDT:USDT",
+    "base": "AEVO",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RLS/USDT:USDT",
+    "base": "RLS",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GRIFFAIN/USDT:USDT",
+    "base": "GRIFFAIN",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "LUMIA/USDT:USDT",
+    "base": "LUMIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MELANIA/USDT:USDT",
+    "base": "MELANIA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CETUS/USDT:USDT",
+    "base": "CETUS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MITO/USDT:USDT",
+    "base": "MITO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BID/USDT:USDT",
+    "base": "BID",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FLR/USDT:USDT",
+    "base": "FLR",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 40.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MASK/USDT:USDT",
+    "base": "MASK",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ME/USDT:USDT",
+    "base": "ME",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ZBCN/USDT:USDT",
+    "base": "ZBCN",
+    "quote": "USDT",
+    "contract_size": 1000.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DEGEN/USDT:USDT",
+    "base": "DEGEN",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "JST/USDT:USDT",
+    "base": "JST",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MIRA/USDT:USDT",
+    "base": "MIRA",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SKL/USDT:USDT",
+    "base": "SKL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "S/USDT:USDT",
+    "base": "S",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "DMC/USDT:USDT",
+    "base": "DMC",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "PTB/USDT:USDT",
+    "base": "PTB",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "SYS/USDT:USDT",
+    "base": "SYS",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GRT/USDT:USDT",
+    "base": "GRT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "GUA/USDT:USDT",
+    "base": "GUA",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TRU/USDT:USDT",
+    "base": "TRU",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "STX/USDT:USDT",
+    "base": "STX",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BEAT/USDT:USDT",
+    "base": "BEAT",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HEMI/USDT:USDT",
+    "base": "HEMI",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "RECALL/USDT:USDT",
+    "base": "RECALL",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "MON/USDT:USDT",
+    "base": "MON",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ROSE/USDT:USDT",
+    "base": "ROSE",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BROCCOLI/USDT:USDT",
+    "base": "BROCCOLI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ATH/USDT:USDT",
+    "base": "ATH",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 30.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "CHZ/USDT:USDT",
+    "base": "CHZ",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "APT/USDT:USDT",
+    "base": "APT",
+    "quote": "USDT",
+    "contract_size": 0.1,
+    "min_qty": 1.0,
+    "leverage_max": 75.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BARD/USDT:USDT",
+    "base": "BARD",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "ORDER/USDT:USDT",
+    "base": "ORDER",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TNSR/USDT:USDT",
+    "base": "TNSR",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 20.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "NIL/USDT:USDT",
+    "base": "NIL",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "FIO/USDT:USDT",
+    "base": "FIO",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "HEI/USDT:USDT",
+    "base": "HEI",
+    "quote": "USDT",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 10.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "TUT/USDT:USDT",
+    "base": "TUT",
+    "quote": "USDT",
+    "contract_size": 100.0,
+    "min_qty": 1.0,
+    "leverage_max": 50.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "COAI/USDT:USDT",
+    "base": "COAI",
+    "quote": "USDT",
+    "contract_size": 10.0,
+    "min_qty": 1.0,
+    "leverage_max": 25.0
+  },
+  {
+    "exchange_id": "gateio",
+    "symbol": "BTC/USD:BTC",
+    "base": "BTC",
+    "quote": "USD",
+    "contract_size": 1.0,
+    "min_qty": 1.0,
+    "leverage_max": 100.0
+  }
+]
