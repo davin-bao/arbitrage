@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from decimal import Decimal
 from typing import List
-from ..entities.hedge_position import HedgePosition
+from ...domain.entities.hedge_position import HedgePosition
 
 
 class AccountService(ABC):

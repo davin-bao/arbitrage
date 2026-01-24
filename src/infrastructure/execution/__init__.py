@@ -1,1 +1,3 @@
-# Empty file to make execution a package
+from .simulated_execution_service import SimulatedExecutionService
+
+__all__ = ['SimulatedExecutionService']
