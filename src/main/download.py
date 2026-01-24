@@ -1,12 +1,16 @@
 import os
+import sys
 import time
 import csv
 from datetime import datetime, timedelta
 from typing import List, Dict
 
-from domain.value_objects.pair import Pair
-from infrastructure.config.config_manager import ConfigManager
-from infrastructure.market.ccxt_market_service import CCXTMarketService
+# 添加src目录到Python路径
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
+from src.domain.value_objects.pair import Pair
+from src.infrastructure.config.config_manager import ConfigManager
+from src.infrastructure.market.ccxt_market_service import CCXTMarketService
 
 
 def _load_config(config_path: str = "config/download.yml", global_config_path: str = "config/global.yml") -> Dict:

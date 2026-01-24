@@ -4,15 +4,15 @@ import time
 import signal
 import sys
 
-from application.services.arbitrage_engine import ArbitrageEngine
+from src.application.services.arbitrage_engine import ArbitrageEngine
 
 from infrastructure.market.ccxt_market_service import CCXTMarketService
 from infrastructure.account.ccxt_account_service import CCXTAccountService
 from src.infrastructure.execution.simulated_execution_service import CCXTExecutionService
 from infrastructure.time.real_time_service import RealTimeService
 
-from domain.services.strategy import IStrategy
-from application.logging import ConsoleLogger
+from src.domain.services.strategy import IStrategy
+from src.application.logging import ConsoleLogger
 
 
 RUN_INTERVAL_SECONDS = 1.0

@@ -1,0 +1,6 @@
+csv_directory: data/historical
+initial_balance: 100000
+pairs:
+- logical_symbol: BTC_USDT
+  long_exchange: binance
+  short_exchange: gateio

@@ -10,9 +10,9 @@ from typing import List, Dict
 # 添加项目根目录到 Python 路径
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from domain.services.market_service import MarketService
-from domain.value_objects.pair import Pair
-from domain.models.market_snapshot import MarketSnapshot
+from src.domain.services.market_service import MarketService
+from src.domain.value_objects.pair import Pair
+from src.domain.models.market_snapshot import MarketSnapshot
 from src.infrastructure.market.historical_market_service import HistoricalMarketService
 
 

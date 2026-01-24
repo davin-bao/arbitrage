@@ -3,9 +3,9 @@ import time
 from typing import List, Dict
 from decimal import Decimal
 
-from domain.services.market_service import MarketService
-from domain.value_objects.pair import Pair
-from domain.models.market_snapshot import MarketSnapshot, MarketLegSnapshot
+from src.domain.services.market_service import MarketService
+from src.domain.value_objects.pair import Pair
+from src.domain.models.market_snapshot import MarketSnapshot, MarketLegSnapshot
 
 
 class CCXTMarketService(MarketService):
