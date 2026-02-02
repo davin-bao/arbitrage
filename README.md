@@ -1,5 +1,7 @@
 请仔细阅读如下文档，并查找是否有不合理的地方，提出修改方案：
 ```
+> (.venv) D:\Python\arbitrage>python -m arbitrage.main.dry_run
+
 # 套利策略系统：大模型编码指导文档（2026年1月版）
 
 > **用途**：供大模型在辅助开发本项目时参考。包含完整架构、接口定义、核心逻辑与防御机制，确保生成代码符合工程规范。
@@ -23,7 +25,6 @@ arbitrage_system/
 │   │   │   ├── hedge_position.py
 │   │   │   ├── trade_leg.py
 │   │   │   └── account_summary.py
-│   │   ├── value_objects/      # 值对象
 │   │   │   ├── enums.py
 │   │   │   └── pair.py
 │   │   ├── models/             # 数据模型（用于序列化）
@@ -120,7 +121,7 @@ from abc import ABC, abstractmethod
 from decimal import Decimal
 from typing import List, Optional
 from ..entities.hedge_position import HedgePosition
-from ..value_objects.pair import Pair
+from ..entities.pair import Pair
 from ..models.market_snapshot import MarketSnapshot
 
 class MarketService(ABC):
@@ -191,7 +192,7 @@ from abc import ABC, abstractmethod
 from decimal import Decimal
 from typing import List, Optional
 from ..entities.hedge_position import HedgePosition
-from ..value_objects.pair import Pair
+from ..entities.pair import Pair
 
 class ExecutionService(ABC):
     @abstractmethod
@@ -231,7 +232,7 @@ class TimeService(ABC):
 from abc import ABC, abstractmethod
 from decimal import Decimal
 from typing import List, Tuple, Optional
-from ..value_objects.pair import Pair
+from ..entities.pair import Pair
 from ..models.market_snapshot import MarketSnapshot
 
 class IStrategy(ABC):
@@ -281,7 +282,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Optional
 from .trade_leg import TradeLeg
-from ..value_objects.pair import Pair
+from ..entities.pair import Pair
 
 @dataclass
 class HedgePosition:
@@ -300,7 +301,7 @@ class HedgePosition:
 # src/domain/entities/trade_leg.py
 from dataclasses import dataclass
 from decimal import Decimal
-from ..value_objects.enums import OrderType, TradeSide
+from ..entities.enums import OrderType, TradeSide
 
 @dataclass(frozen=True)
 class TradeLeg:

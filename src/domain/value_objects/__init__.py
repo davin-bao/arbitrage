@@ -1,1 +1,0 @@
-# Empty file to make value_objects a package

@@ -327,7 +327,7 @@ arbitrage_system/
 │   │       ├── __init__.py
 │   │       ├── spread_snapshot_repo.py  # 抽象基类
 │   │       ├── edge_metrics_repo.py     # 抽象基类
-│   │       └── hedge_position_repo.py   # 抽象基类
+│   │       └── hedge_position_repository.py   # 抽象基类
 │   │
 │   ├── application/               # 🎯 应用层（用例编排）
 │   │   ├── __init__.py
@@ -355,10 +355,10 @@ arbitrage_system/
 │   │   │
 │   │   └── persistence/
 │   │       ├── __init__.py
-│       ├── sqlite_connection.py        # SQLite 连接管理
-│       ├── spread_snapshot_repository_sqlite.py
-│       ├── edge_metrics_repository_sqlite.py
-│       └── hedge_position_repository_sqlite.py
+│   │       ├── sqlite_connection.py        # SQLite 连接管理
+│   │       ├── spread_snapshot_repository_sqlite.py
+│   │       ├── edge_metrics_repository_sqlite.py
+│   │       └── hedge_position_repository_sqlite.py
 │   │
 │   ├── interface/                 # 🖥️ 接口层（主程序入口）
 │   │   ├── __init__.py

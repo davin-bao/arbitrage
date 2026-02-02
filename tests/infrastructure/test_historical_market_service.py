@@ -11,7 +11,7 @@ from typing import List, Dict
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
 from src.domain.services.market_service import MarketService
-from src.domain.value_objects.pair import Pair
+from src.domain.entities.pair import Pair
 from src.domain.models.market_snapshot import MarketSnapshot
 from src.infrastructure.market.historical_market_service import HistoricalMarketService
 

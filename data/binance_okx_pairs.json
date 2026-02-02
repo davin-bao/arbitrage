@@ -1,0 +1,40 @@
+[
+  {
+    "symbol": "BTC/USDT:USDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "long_exchange": "binance",
+    "short_exchange": "okx",
+    "contracts": {
+      "binance": {
+        "contract_size": 1.0,
+        "min_qty": 0.001,
+        "leverage_max": null
+      },
+      "okx": {
+        "contract_size": 0.01,
+        "min_qty": 0.01,
+        "leverage_max": null
+      }
+    }
+  },
+  {
+    "symbol": "FUN/USDT:USDT",
+    "base": "FUN",
+    "quote": "USDT",
+    "long_exchange": "binance",
+    "short_exchange": "okx",
+    "contracts": {
+      "binance": {
+        "contract_size": 1.0,
+        "min_qty": 1.0,
+        "leverage_max": null
+      },
+      "okx": {
+        "contract_size": 10.0,
+        "min_qty": 1.0,
+        "leverage_max": null
+      }
+    }
+  }
+]
