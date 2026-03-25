@@ -11,8 +11,7 @@ from arbitrage.application.utils.paths import DATA_DIR
 
 
 def load_pairs(
-    config_path: str = "config/global.yml", 
-    csv_directory: str = "data/historical"
+    config_path: str = "config/global.yml"
 ) -> List[Pair]:
     """
     从配置文件和交易对文件加载交易对列表
@@ -24,16 +23,19 @@ def load_pairs(
     Returns:
         List[Pair]: 交易对列表
     """
-    config = _load_config_with_paths(config_path, csv_directory)
-    exchanges = list(config['exchanges'].keys())
+    config_manager = ConfigManager()
+    config = config_manager.load_or_create_config(config_path, {})
+    # 只保存enabled为true的交易所
+    exchanges = [exchange for exchange, info in config['exchanges'].items() 
+                 if info.get('enabled', False)]
     
     if len(exchanges) < 2:
-        raise ValueError("至少需要配置两个交易所才能进行套利回测")
+        raise ValueError("至少需要配置两个启用的交易所才能进行套利回测")
     
     # 使用配置中的前两个交易所作为做多和做空交易所
     long_exchange_name = exchanges[0]
     short_exchange_name = exchanges[1]
-        
+
     # 按字母顺序排列交易所名称，构成文件名
     sorted_exchanges = sorted([long_exchange_name, short_exchange_name])
     pair_file = DATA_DIR / f"{sorted_exchanges[0]}_{sorted_exchanges[1]}_pairs.json"
@@ -49,15 +51,5 @@ def load_pairs(
         # 使用 Pair 类的 from_dict 方法从字典创建对象
         pair = Pair.from_dict(pair_data)
         pairs.append(pair)
+    
     return pairs
-
-def _load_config_with_paths(config_path: str, csv_directory: str):
-    """
-    从指定路径加载配置
-    """
-    config_manager = ConfigManager()
-    global_config = config_manager.load_or_create_config(config_path, {})
-    return {
-        'exchanges': global_config['exchanges'],
-        'csv_directory': csv_directory
-    }

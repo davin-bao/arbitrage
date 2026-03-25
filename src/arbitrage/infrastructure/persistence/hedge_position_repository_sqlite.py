@@ -1,7 +1,8 @@
-import sqlite3
 from typing import List, Optional
 import json
 
+from arbitrage.application.utils.types import safe_decimal, safe_float
+from arbitrage.domain.entities.enums import PositionState
 from arbitrage.domain.entities.hedge_position import HedgePosition
 from arbitrage.domain.repositories.hedge_position_repository import HedgePositionRepository
 from arbitrage.infrastructure.persistence.sqlite_connection import SqliteConnection
@@ -25,18 +26,10 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 short_exchange TEXT NOT NULL,
                 contracts TEXT,
                 state TEXT NOT NULL,
-                quantity DECIMAL NOT NULL,
-                notional_usd DECIMAL NOT NULL,
-                entry_price_long DECIMAL,
-                entry_price_short DECIMAL,
-                current_price_long DECIMAL,
-                current_price_short DECIMAL,
-                pnl_unrealized DECIMAL,
-                pnl_realized DECIMAL,
-                fees DECIMAL,
                 open_time INTEGER,
                 close_time INTEGER,
-                close_reason TEXT,
+                ohlcv_average DECIMAL,
+                ohlcv_max DECIMAL,
                 long_leg_exchange TEXT,
                 long_leg_symbol TEXT,
                 long_leg_side TEXT,
@@ -46,6 +39,8 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 long_leg_slippage_loss DECIMAL,
                 long_leg_order_type TEXT,
                 long_leg_timestamp REAL,
+                long_leg_close_price DECIMAL,
+                long_leg_close_timestamp REAL,
                 short_leg_exchange TEXT,
                 short_leg_symbol TEXT,
                 short_leg_side TEXT,
@@ -55,6 +50,8 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 short_leg_slippage_loss DECIMAL,
                 short_leg_order_type TEXT,
                 short_leg_timestamp REAL,
+                short_leg_close_price DECIMAL,
+                short_leg_close_timestamp REAL,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
@@ -69,9 +66,9 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             # 将contracts转换为JSON字符串
             contracts_json = json.dumps({
                 ex: {
-                    'contract_size': float(info.contract_size),
-                    'min_qty': float(info.min_qty),
-                    'leverage_max': float(info.leverage_max) if info.leverage_max else None
+                    'contract_size': safe_float(info.contract_size),
+                    'min_qty': safe_float(info.min_qty),
+                    'leverage_max': safe_float(info.leverage_max) if info.leverage_max else None
                 } 
                 for ex, info in position.pair.contracts.items()
             })
@@ -79,18 +76,15 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             cursor.execute("""
                 INSERT INTO hedge_position (
                     id, symbol, base, quote, long_exchange, short_exchange, 
-                    contracts, state, quantity, notional_usd, 
-                    entry_price_long, entry_price_short,
-                    current_price_long, current_price_short,
-                    pnl_unrealized, pnl_realized, fees,
-                    open_time, close_time, close_reason,
+                    contracts, state,
+                    open_time, close_time, ohlcv_average, ohlcv_max,
                     long_leg_exchange, long_leg_symbol, long_leg_side, 
                     long_leg_amount, long_leg_price, long_leg_fee, 
                     long_leg_slippage_loss, long_leg_order_type, long_leg_timestamp,
                     short_leg_exchange, short_leg_symbol, short_leg_side, 
                     short_leg_amount, short_leg_price, short_leg_fee, 
                     short_leg_slippage_loss, short_leg_order_type, short_leg_timestamp
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 position.id,
                 position.pair.symbol,
@@ -100,27 +94,19 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 position.pair.short_exchange,
                 contracts_json,
                 position.state.value,
-                float(position.quantity) if position.quantity else 0,
-                float(position.notional_usd) if position.notional_usd else 0,
-                float(position.entry_price_long) if position.entry_price_long else None,
-                float(position.entry_price_short) if position.entry_price_short else None,
-                float(position.current_price_long) if position.current_price_long else None,
-                float(position.current_price_short) if position.current_price_short else None,
-                float(position.pnl_unrealized) if position.pnl_unrealized else 0,
-                float(position.pnl_realized) if position.pnl_realized else 0,
-                float(position.fees) if position.fees else 0,
                 int(position.open_timestamp),
                 position.close_timestamp,
-                position.close_reason,
+                safe_float(position.ohlcv_average),
+                safe_float(position.ohlcv_max),
                 
                 # Long leg data
                 position.long_leg.exchange,
                 position.long_leg.symbol,
                 position.long_leg.side.value,
-                float(position.long_leg.amount),
-                float(position.long_leg.price),
-                float(position.long_leg.fee),
-                float(position.long_leg.slippage_loss),
+                safe_float(position.long_leg.amount),
+                safe_float(position.long_leg.price),
+                safe_float(position.long_leg.fee),
+                safe_float(position.long_leg.slippage_loss),
                 position.long_leg.order_type.value,
                 position.long_leg.timestamp,
                 
@@ -128,10 +114,10 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 position.short_leg.exchange,
                 position.short_leg.symbol,
                 position.short_leg.side.value,
-                float(position.short_leg.amount),
-                float(position.short_leg.price),
-                float(position.short_leg.fee),
-                float(position.short_leg.slippage_loss),
+                safe_float(position.short_leg.amount),
+                safe_float(position.short_leg.price),
+                safe_float(position.short_leg.fee),
+                safe_float(position.short_leg.slippage_loss),
                 position.short_leg.order_type.value,
                 position.short_leg.timestamp
             ))
@@ -149,9 +135,9 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             # 将contracts转换为JSON字符串
             contracts_json = json.dumps({
                 ex: {
-                    'contract_size': float(info.contract_size),
-                    'min_qty': float(info.min_qty),
-                    'leverage_max': float(info.leverage_max) if info.leverage_max else None
+                    'contract_size': safe_float(info.contract_size),
+                    'min_qty': safe_float(info.min_qty),
+                    'leverage_max': safe_float(info.leverage_max) if info.leverage_max else None
                 } 
                 for ex, info in position.pair.contracts.items()
             })
@@ -165,18 +151,10 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                     short_exchange = ?,
                     contracts = ?,
                     state = ?,
-                    quantity = ?,
-                    notional_usd = ?,
-                    entry_price_long = ?,
-                    entry_price_short = ?,
-                    current_price_long = ?,
-                    current_price_short = ?,
-                    pnl_unrealized = ?,
-                    pnl_realized = ?,
-                    fees = ?,
                     open_time = ?,
                     close_time = ?,
-                    close_reason = ?,
+                    ohlcv_average = ?,
+                    ohlcv_max = ?,
                     long_leg_exchange = ?,
                     long_leg_symbol = ?,
                     long_leg_side = ?,
@@ -186,6 +164,8 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                     long_leg_slippage_loss = ?,
                     long_leg_order_type = ?,
                     long_leg_timestamp = ?,
+                    long_leg_close_price = ?,
+                    long_leg_close_timestamp = ?,
                     short_leg_exchange = ?,
                     short_leg_symbol = ?,
                     short_leg_side = ?,
@@ -195,6 +175,8 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                     short_leg_slippage_loss = ?,
                     short_leg_order_type = ?,
                     short_leg_timestamp = ?,
+                    short_leg_close_price = ?,
+                    short_leg_close_timestamp = ?,
                     updated_at = CURRENT_TIMESTAMP
                 WHERE id = ?
             """, (
@@ -205,40 +187,36 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 position.pair.short_exchange,
                 contracts_json,
                 position.state.value,
-                float(position.quantity) if position.quantity else 0,
-                float(position.notional_usd) if position.notional_usd else 0,
-                float(position.entry_price_long) if position.entry_price_long else None,
-                float(position.entry_price_short) if position.entry_price_short else None,
-                float(position.current_price_long) if position.current_price_long else None,
-                float(position.current_price_short) if position.current_price_short else None,
-                float(position.pnl_unrealized) if position.pnl_unrealized else 0,
-                float(position.pnl_realized) if position.pnl_realized else 0,
-                float(position.fees) if position.fees else 0,
                 int(position.open_timestamp),
                 position.close_timestamp,
-                position.close_reason,
+                safe_float(position.ohlcv_average),
+                safe_float(position.ohlcv_max),
                 
                 # Long leg data
                 position.long_leg.exchange,
                 position.long_leg.symbol,
                 position.long_leg.side.value,
-                float(position.long_leg.amount),
-                float(position.long_leg.price),
-                float(position.long_leg.fee),
-                float(position.long_leg.slippage_loss),
+                safe_float(position.long_leg.amount),
+                safe_float(position.long_leg.price),
+                safe_float(position.long_leg.fee),
+                safe_float(position.long_leg.slippage_loss),
                 position.long_leg.order_type.value,
                 position.long_leg.timestamp,
+                safe_float(position.long_leg.close_price),
+                position.long_leg.close_timestamp,
                 
                 # Short leg data
                 position.short_leg.exchange,
                 position.short_leg.symbol,
                 position.short_leg.side.value,
-                float(position.short_leg.amount),
-                float(position.short_leg.price),
-                float(position.short_leg.fee),
-                float(position.short_leg.slippage_loss),
+                safe_float(position.short_leg.amount),
+                safe_float(position.short_leg.price),
+                safe_float(position.short_leg.fee),
+                safe_float(position.short_leg.slippage_loss),
                 position.short_leg.order_type.value,
                 position.short_leg.timestamp,
+                safe_float(position.short_leg.close_price),
+                position.short_leg.close_timestamp,
                 
                 position.id
             ))
@@ -289,11 +267,10 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             cursor = self.conn.cursor()
             cursor.execute("""
                 SELECT * FROM hedge_position 
-                WHERE state IN ('OPEN', 'CLOSING') 
+                WHERE state IN (?, ?) 
                 ORDER BY created_at DESC
-            """)
+            """, (PositionState.OPEN.value, PositionState.CLOSING.value,))
             rows = cursor.fetchall()
-            
             positions = []
             for row in rows:
                 position = self._row_to_entity(row)
@@ -309,7 +286,6 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
         try:
             from arbitrage.domain.entities.pair import Pair, ContractInfo
             from arbitrage.domain.entities.hedge_position import HedgePosition, PositionState
-            from decimal import Decimal
             from arbitrage.domain.entities.trade_leg import TradeLeg
             from arbitrage.domain.entities.enums import TradeSide, OrderType
             
@@ -318,9 +294,9 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             contracts = {}
             for exchange, info in contracts_data.items():
                 contracts[exchange] = ContractInfo(
-                    contract_size=Decimal(str(info['contract_size'])),
-                    min_qty=Decimal(str(info['min_qty'])),
-                    leverage_max=Decimal(str(info['leverage_max'])) if info['leverage_max'] else None
+                    contract_size=safe_decimal(str(info['contract_size'])),
+                    min_qty=safe_decimal(str(info['min_qty'])),
+                    leverage_max=safe_decimal(str(info['leverage_max'])) if info['leverage_max'] else None
                 )
             
             # 构建Pair对象
@@ -338,27 +314,31 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
             
             # 构建TradeLeg对象
             long_leg = TradeLeg(
-                exchange=row[20],
-                symbol=row[21],
-                side=TradeSide(row[22]),
-                amount=Decimal(str(row[23])),
-                price=Decimal(str(row[24])),
-                fee=Decimal(str(row[25])),
-                slippage_loss=Decimal(str(row[26])),
-                order_type=OrderType(row[27]),
-                timestamp=float(row[28])
+                exchange=row[12],
+                symbol=row[13],
+                side=TradeSide(row[14]),
+                amount=safe_decimal(str(row[15])),
+                price=safe_decimal(str(row[16])),
+                fee=safe_decimal(str(row[17])),
+                slippage_loss=safe_decimal(str(row[18])),
+                order_type=OrderType(row[19]),
+                timestamp=safe_float(row[20]),
+                close_price=safe_decimal(str(row[21])),
+                close_timestamp=safe_float(row[22])
             )
             
             short_leg = TradeLeg(
-                exchange=row[29],
-                symbol=row[30],
-                side=TradeSide(row[31]),
-                amount=Decimal(str(row[32])),
-                price=Decimal(str(row[33])),
-                fee=Decimal(str(row[34])),
-                slippage_loss=Decimal(str(row[35])),
-                order_type=OrderType(row[36]),
-                timestamp=float(row[37])
+                exchange=row[23],
+                symbol=row[24],
+                side=TradeSide(row[25]),
+                amount=safe_decimal(str(row[26])),
+                price=safe_decimal(str(row[27])),
+                fee=safe_decimal(str(row[28])),
+                slippage_loss=safe_decimal(str(row[29])),
+                order_type=OrderType(row[30]),
+                timestamp=safe_float(row[31]),
+                close_price=safe_decimal(str(row[32])),
+                close_timestamp=safe_float(row[33])
             )
             
             # 构建HedgePosition对象
@@ -366,20 +346,12 @@ class HedgePositionRepositorySqlite(HedgePositionRepository):
                 id=row[0],
                 pair=pair,
                 state=state,
-                quantity=Decimal(str(row[8])) if row[8] else Decimal('0'),
-                notional_usd=Decimal(str(row[9])) if row[9] else Decimal('0'),
-                entry_price_long=Decimal(str(row[10])) if row[10] else None,
-                entry_price_short=Decimal(str(row[11])) if row[11] else None,
-                current_price_long=Decimal(str(row[12])) if row[12] else None,
-                current_price_short=Decimal(str(row[13])) if row[13] else None,
-                pnl_unrealized=Decimal(str(row[14])) if row[14] else Decimal('0'),
-                pnl_realized=Decimal(str(row[15])) if row[15] else Decimal('0'),
-                fees=Decimal(str(row[16])) if row[16] else Decimal('0'),
-                open_timestamp=float(row[17]),
-                close_timestamp=row[18],
+                open_timestamp=safe_float(row[8]),
+                close_timestamp=safe_float(row[9]),
+                ohlcv_average=safe_decimal(row[10]),
+                ohlcv_max=safe_decimal(row[11]),
                 long_leg=long_leg,
-                short_leg=short_leg,
-                close_reason=row[19]
+                short_leg=short_leg
             )
             
             return position

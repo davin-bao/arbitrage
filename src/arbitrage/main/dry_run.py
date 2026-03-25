@@ -21,7 +21,7 @@ from arbitrage.domain.services.strategy import IStrategy
 from arbitrage.application.logging.file_logger import ILogger, FileLogger
 
 
-RUN_INTERVAL_SECONDS = 1.0
+RUN_INTERVAL_SECONDS = 2.0
 
 
 def main():
@@ -32,9 +32,8 @@ def main():
 
     # ===== 模拟基础设施 =====
     market_service = CCXTMarketService(config['exchanges'])
-    # market_service = HistoricalMarketService()
     account_service = SimulatedAccountService(initial_balance=100_000)
-    execution_service = SimulatedExecutionService()
+    execution_service = SimulatedExecutionService(account_service=account_service, config=config)
     time_service = RealTimeService()
     sqliteConnection = SqliteConnection(db_path=config['db_path'])
     hedge_position_repository = HedgePositionRepositorySqlite(conn=sqliteConnection)
@@ -49,10 +48,7 @@ def main():
         execution_service=execution_service,
         time_service=time_service,
         hedge_position_repository=hedge_position_repository,
-        logger=logger,
-        config={
-            "max_total_positions": 10
-        },
+        config=config,
     )
 
     def shutdown_handler(sig, frame):
@@ -67,7 +63,7 @@ def main():
         time.sleep(RUN_INTERVAL_SECONDS)
 
 
-def _load_config(config_path: str = "config/backtest.yml", global_config_path: str = "config/global.yml") -> Dict:
+def _load_config(config_path: str = "config/dry_run.yml", global_config_path: str = "config/global.yml") -> Dict:
     """
     从配置文件加载交易所配置
     """
@@ -76,8 +72,11 @@ def _load_config(config_path: str = "config/backtest.yml", global_config_path: s
     global_config = config_manager.load_or_create_config(global_config_path, {})
     return {
         'exchanges': global_config['exchanges'],
+        'blacklist_pairs': global_config.get('blacklist_pairs', []),
         'db_path': dry_config.get('db_path', 'data/arb.db'),
-        'initial_balance': dry_config.get('initial_balance', 100000)
+        'initial_balance': dry_config.get('initial_balance', 100000),
+        'locked_seconds': dry_config.get('locked_seconds', 300),
+        'max_total_positions': 10
     }
 
 def _get_sample_config():

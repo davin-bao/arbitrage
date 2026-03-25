@@ -3,10 +3,10 @@ exchanges:
     enableRateLimit: true
     enabled: true
     fees:
-      maker: 0.001
-      taker: 0.002
+      maker: 0.0075
+      taker: 0.001
     options:
-      defaultType: future
+      defaultType: swap
     proxies:
       https: http://127.0.0.1:7897
     sandbox: false
@@ -14,14 +14,31 @@ exchanges:
     secret: 
   okx:
     enableRateLimit: true
-    enabled: true
+    enabled: false
     fees:
-      maker: 0.001
-      taker: 0.002
+      maker: 0.0008
+      taker: 0.001
     options:
-      defaultType: future
+      defaultType: swap
     proxies:
       https: http://127.0.0.1:7897
     sandbox: false
     apiKey: 
     secret: 
+  gateio:
+    enableRateLimit: true
+    enabled: true
+    fees:
+      maker: 0.001
+      taker: 0.002
+    options:
+      defaultType: swap
+    proxies:
+      https: http://127.0.0.1:7897
+    sandbox: false
+    apiKey: 
+    secret: 
+
+blacklist_pairs:
+  - FUN/USDT:USDT
+  - CUDIS/USDT:USDT

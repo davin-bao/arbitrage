@@ -6,6 +6,7 @@ from ..entities.enums import ExecutionState
 from ..entities.hedge_position import HedgePosition
 from ..entities.open_intent import OpenIntent
 from ..models.market_snapshot import MarketSnapshot
+from ..models.market_ticker_snapshot import MarketTickerSnapshot
 
 
 @dataclass
@@ -31,6 +32,6 @@ class ExecutionService(ABC):
     def close_position(
         self,
         position: HedgePosition,
-        market: MarketSnapshot
+        market: MarketTickerSnapshot
     ) -> ExecutionResult:
         pass

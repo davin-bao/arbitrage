@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+import time
+from dataclasses import dataclass, field
 from typing import Dict, Optional
 
 
@@ -9,7 +10,7 @@ class ContractInfo:
     leverage_max: Optional[float]
 
 
-@dataclass(frozen=True)
+@dataclass
 class Pair:
     symbol: str
     base: str
@@ -17,6 +18,7 @@ class Pair:
     long_exchange: str
     short_exchange: str
     contracts: Dict[str, ContractInfo]
+    locked_timestamp: float = field(default_factory=lambda: time.time() - 300)
 
     @property
     def pair_id(self) -> str:

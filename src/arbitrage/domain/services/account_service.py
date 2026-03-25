@@ -26,6 +26,21 @@ class AccountService(ABC):
         pass
 
     @abstractmethod
+    def add_position(self, position: HedgePosition):
+        """
+        添加对冲持仓
+        """
+        pass
+
+    @abstractmethod
+    def remove_position(self, position):
+        """
+        删除对冲持仓
+        支持通过HedgePosition对象或position ID删除
+        """
+        pass
+
+    @abstractmethod
     def get_account_snapshot(self):
         """
         获取账户快照，包含余额、持仓、订单等信息

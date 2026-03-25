@@ -4,7 +4,7 @@ from typing import List
 from ..entities.enums import OrderType, TradeSide
 
 
-@dataclass(frozen=True)
+@dataclass
 class TradeLeg:
     exchange: str
     symbol: str
@@ -15,3 +15,5 @@ class TradeLeg:
     slippage_loss: Decimal  # 滑点损失（USD）
     order_type: OrderType   # 'limit', 'market', 'emergency_market'
     timestamp: float
+    close_price: Decimal    # 用于记录平仓价格
+    close_timestamp: float

@@ -18,6 +18,7 @@ class MarketLegSnapshot:
     last_timestamp: Optional[float] = None
 
     # 订单簿顶部（Top of Book）
+    quote_volume: Optional[Decimal] = None
     best_bid_price: Optional[Decimal] = None
     best_bid_size: Optional[Decimal] = None
     best_ask_price: Optional[Decimal] = None

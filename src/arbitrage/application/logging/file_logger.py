@@ -28,6 +28,7 @@ class FileLogger(ILogger):
         self.prefix = prefix
         self.log_dir = log_dir
         self.current_date = datetime.now().strftime("%Y-%m-%d")
+        self._in_logging = False
         self._ensure_log_directory_exists()
 
         # 日志文件名包含日期
@@ -65,10 +66,16 @@ class FileLogger(ILogger):
         if self.file_handle:
             self.file_handle.write(log_entry)
             self.file_handle.flush()  # 确保立即写入磁盘
-
-        # 输出到控制台
-        console_message = f"[{timestamp}] {self.prefix} [{level}] {message}"
-        print(console_message, file=sys.stdout)
+        
+        if self._in_logging:
+            return  # 防止递归调用
+        self._in_logging = True
+        try:
+            # 输出到控制台
+            console_message = f"[{timestamp}] {self.prefix} [{level}] {message}"
+            print(console_message, file=sys.stdout)
+        finally:
+            self._in_logging = False
 
     def info(self, message: str) -> None:
         self._write_log("INFO", message)
